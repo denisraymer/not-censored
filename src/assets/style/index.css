@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url('../fonts/HelveticaRegular/HelveticaRegular.eot');
+    src: url('../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaRegular/HelveticaRegular.woff') format('woff'),
+    url('../fonts/HelveticaRegular/HelveticaRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'HelveticaRegular', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TextEditor */
+.text-editor {
+    width: 61.875rem;
+    padding: 2rem 0 0;
+    margin: 0 auto;
+}
+
+.text-editor .form-control {
+    border-color: #fff;
+    min-height: 41.25rem;
+    font-family: 'HelveticaRegular', sans-serif;
+    color: #000;
+    resize: none;
+}
+
+.text-editor textarea {
+    border-radius: 0;
+    outline-color: transparent !important;
+    padding: 0;
+}
+
+.text-editor textarea::placeholder {
+    text-align: center;
+    font-family: 'HelveticaRegular', sans-serif;
+    font-size: 130px;
+    line-height: 160px;
+    color: #BEBDBD;
+}
+
+/* FontSetting */
+.font-setting {
+    width: 21.875rem;
+    margin: 6rem auto;
+}
+
+.font-setting .form-group {
+    display: flex;
+}
+
+.font-setting .form-control-range {
+    max-width: 15.625rem;
+}
+
+.font-setting .form-label {
+    text-transform: lowercase;
+    font-size: 1rem;
+    color: #000;
+    margin-left: 1.25rem;
+    margin-bottom: 0;
+}
+
+/* About */
+.about {
+    text-align: center;
+}
+
+/* Gallery */
+.gallery {
+    text-align: center;
+}
+
+/* Store */
+.store {
+    text-align: center;
+}
+
+.about h1,
+.gallery h1,
+.store h1 {
+    margin: 20rem 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #323232;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding: 60px 0;
+    margin-top: auto;
+}
+
+.footer h6 {
+    margin-bottom: 0;
+}
