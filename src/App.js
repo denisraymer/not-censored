@@ -5,7 +5,7 @@ import {Form} from 'react-bootstrap';
 
 function App() {
     const [fontWeight, setFontWeight] = React.useState(100);
-    const [fontSize, setFontSize] = React.useState(100);
+    const [fontSize, setFontSize] = React.useState(90);
     const [text, setText] = React.useState('');
     // const [downloadUrl, setDownloadUrl] = React.useState('');
 
@@ -53,8 +53,8 @@ function App() {
                                                   onChange={(e) => setFontSize(e.target.value)}
                                                   defaultValue='100'
                                                   step='1'
-                                                  min='100'
-                                                  max='150'/>
+                                                  min='20'
+                                                  max='160'/>
                                     <Form.Label>Размер</Form.Label>
                                 </Form.Group>
                                 <Form.Group controlId="formFontSizeRange">
@@ -86,7 +86,7 @@ function App() {
                         style={textStyle}
                         value={text}/>
                 </div>
-                <div className='copyright'>1</div>
+                <div className='copyright'/>
             </div>
             <Footer/>
         </div>
