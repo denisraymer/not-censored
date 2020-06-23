@@ -7,10 +7,12 @@ const NavigationBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">о проекте</Nav.Link>
-                    <Nav.Link href="#link">материться сюда</Nav.Link>
-                    <Nav.Link href="#link">шрифт в использовании</Nav.Link>
-                    <Nav.Link href="#link">аутфит с позицией</Nav.Link>
+                    <Nav.Link href="#home">О ПРОЕКТЕ</Nav.Link>
+                    <Nav.Link href="#link">ВЫСКАЗАТЬСЯ</Nav.Link>
+                    <Nav.Link href="#link">ФОНТ ИН ЮЗ</Nav.Link>
+                    <Nav.Link href="#link">МАГАЗИН</Nav.Link>
+                    <Nav.Link href="#link">КОРЗИНА (0)</Nav.Link>
+                    <Nav.Link href="#link">ENG</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

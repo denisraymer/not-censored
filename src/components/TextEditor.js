@@ -4,7 +4,7 @@ const TextEditor = () => {
     return (
         <div className='text-editor'>
             <textarea
-                placeholder="Не стесняйся в выражениях, сквернословь на здоровье"
+                placeholder="ЗДЕСЬ МОЖНО МАТЕРИТЬСЯ "
                 className='form-control'/>
         </div>
     )
