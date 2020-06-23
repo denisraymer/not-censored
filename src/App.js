@@ -11,6 +11,9 @@ function App() {
 
     React.useEffect(() => {
         const canvas = document.getElementById('canvas')
+
+        console.log(canvas.width, canvas.height)
+
         // canvas.clearRect(0, 0, canvas.width, canvas.height)
         // canvas.fillText(text, 10, 50)
         // canvas.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
@@ -33,6 +36,7 @@ function App() {
     return (
         <div className='main'>
             <NavigationBar/>
+            <canvas id='canvas' width={1110} height={580} style={{display: 'none'}}/>
             <div className='content'>
                 <div className='sidebar'>
                     <div className='sidebar-content'>
@@ -44,7 +48,7 @@ function App() {
                                                   defaultValue='100'
                                                   step='1'
                                                   min='100'
-                                                  max='900'/>
+                                                  max='150'/>
                                     <Form.Label>Размер</Form.Label>
                                 </Form.Group>
                                 <Form.Group controlId="formFontSizeRange">
@@ -53,7 +57,7 @@ function App() {
                                                   defaultValue='100'
                                                   step='1'
                                                   min='100'
-                                                  max='150'/>
+                                                  max='900'/>
                                     <Form.Label>Цензура</Form.Label>
                                 </Form.Group>
                                 {/*<a download href={downloadUrl} target="_blank" className='btn btn-dark'>*/}

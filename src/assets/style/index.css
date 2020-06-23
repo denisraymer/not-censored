@@ -71,11 +71,11 @@ code {
 .sidebar .sidebar-content .btn {
     border-radius: 0;
     background-color: #000;
-    width: 100%;
     text-transform: uppercase;
     font-family: 'HelveticaRegular', sans-serif;
     font-size: 30px;
     color: #fff;
+    padding: 10px 40px;
 }
 
 .content {
@@ -100,13 +100,20 @@ code {
 }
 
 .text-editor textarea {
-    max-height: 660px;
+    border: none;
     border-radius: 0;
+    max-height: 660px;
+    text-align: center;
     font-family: 'CensoredExprmntlbetaGX', sans-serif !important;
     outline-color: transparent !important;
     overflow: hidden;
     resize: none;
     padding: 0;
+}
+
+.text-editor textarea:focus {
+    outline-color: #fff;
+    outline-style: none;
 }
 
 .text-editor textarea::placeholder {
