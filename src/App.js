@@ -7,13 +7,10 @@ function App() {
     const [fontWeight, setFontWeight] = React.useState(100);
     const [fontSize, setFontSize] = React.useState(100);
     const [text, setText] = React.useState('');
-    const [downloadUrl, setDownloadUrl] = React.useState('');
+    // const [downloadUrl, setDownloadUrl] = React.useState('');
 
     React.useEffect(() => {
-        const canvas = document.getElementById('canvas')
-
-        console.log(canvas.width, canvas.height)
-
+        // const canvas = document.getElementById('canvas')
         // canvas.clearRect(0, 0, canvas.width, canvas.height)
         // canvas.fillText(text, 10, 50)
         // canvas.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
@@ -21,7 +18,7 @@ function App() {
     }, [text])
 
     React.useEffect(() => {
-        const canvas = document.getElementById('canvas')
+        // const canvas = document.getElementById('canvas')
         // canvas.clearRect(0, 0, canvas.width, canvas.height)
         // canvas.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
         // canvas.fillText(text, 10, 50)
@@ -31,6 +28,15 @@ function App() {
     const textStyle = {
         fontSize: `${fontSize}px`,
         fontVariationSettings: `'wdth' 400, 'wght' ${fontWeight}`
+    }
+    const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки']
+
+    const randomMatuck = () => {
+        return matuck[Math.floor(Math.random() * Math.floor(9)) + 1]
+    }
+
+    const randomImages = {
+        background: `url('../assets/images/dice-0${Math.floor(Math.random() * Math.floor(3)) + 1}.png') no-repeat center`
     }
 
     return (
@@ -60,6 +66,11 @@ function App() {
                                                   max='900'/>
                                     <Form.Label>Цензура</Form.Label>
                                 </Form.Group>
+                                <button type='button'
+                                        className='random'
+                                        onClick={(e) => setText(randomMatuck)}
+                                        style={{}}>
+                                </button>
                                 {/*<a download href={downloadUrl} target="_blank" className='btn btn-dark'>*/}
                                 {/*    Download*/}
                                 {/*</a>*/}
@@ -71,12 +82,11 @@ function App() {
                 <div className='text-editor'>
                     <textarea
                         placeholder="ЗДЕСЬ МОЖНО МАТЕРИТЬСЯ "
-                        className='form-control'
                         onChange={(e) => setText(e.target.value)}
                         style={textStyle}
                         value={text}/>
                 </div>
-                <div className='copyright'/>
+                <div className='copyright'>1</div>
             </div>
             <Footer/>
         </div>

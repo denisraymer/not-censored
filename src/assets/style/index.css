@@ -99,16 +99,21 @@ code {
     resize: none;
 }
 
+
+.form-control {
+    outline: none !important;
+}
+
 .text-editor textarea {
     border: none;
     border-radius: 0;
-    max-height: 660px;
+    min-height: 100%;
     text-align: center;
     font-family: 'CensoredExprmntlbetaGX', sans-serif !important;
     outline-color: transparent !important;
     overflow: hidden;
     resize: none;
-    padding: 0;
+    padding: 30px 0;
 }
 
 .text-editor textarea:focus {
@@ -118,10 +123,25 @@ code {
 
 .text-editor textarea::placeholder {
     text-align: center;
-    font-family: 'HelveticaRegular', sans-serif;
+    font-family: 'CensoredExprmntlbetaGX', sans-serif;
     font-size: 130px;
     line-height: 160px;
     color: #BEBDBD;
+}
+
+.random {
+    border-radius: 50px;
+    border: 2px solid #000;
+    background: #fff url('../images/dice-01.png') no-repeat center;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.random:focus {
+    outline: none !important;
 }
 
 /* FontSetting */
