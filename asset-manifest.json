@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/font-presentation/static/css/main.14de15e3.chunk.css",
+    "main.js": "/font-presentation/static/js/main.71dabf96.chunk.js",
+    "main.js.map": "/font-presentation/static/js/main.71dabf96.chunk.js.map",
+    "runtime-main.js": "/font-presentation/static/js/runtime-main.119592b2.js",
+    "runtime-main.js.map": "/font-presentation/static/js/runtime-main.119592b2.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/font-presentation/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.61ca55d0.chunk.js": "/font-presentation/static/js/2.61ca55d0.chunk.js",
+    "static/js/2.61ca55d0.chunk.js.map": "/font-presentation/static/js/2.61ca55d0.chunk.js.map",
+    "index.html": "/font-presentation/index.html",
+    "precache-manifest.5c8410b64cb83ee06499eb0bdacaf91d.js": "/font-presentation/precache-manifest.5c8410b64cb83ee06499eb0bdacaf91d.js",
+    "service-worker.js": "/font-presentation/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/font-presentation/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.14de15e3.chunk.css.map": "/font-presentation/static/css/main.14de15e3.chunk.css.map",
+    "static/js/2.61ca55d0.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.61ca55d0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/font-presentation/static/media/copyright.9405f423.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.119592b2.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.61ca55d0.chunk.js",
+    "static/css/main.14de15e3.chunk.css",
+    "static/js/main.71dabf96.chunk.js"
+  ]
+}
