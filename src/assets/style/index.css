@@ -1,16 +1,23 @@
 @font-face {
     font-family: 'HelveticaRegular';
-    src: url('../fonts/HelveticaRegular/HelveticaRegular.eot');
-    src: url('../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/HelveticaRegular/HelveticaRegular.woff') format('woff'),
-    url('../fonts/HelveticaRegular/HelveticaRegular.ttf') format('truetype');
+    src: url('../fonts/HelveticaRegular.eot');
+    src: url('../fonts/HelveticaRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaRegular.woff') format('woff'),
+    url('../fonts/HelveticaRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'FreeSans';
+    src: url('../fonts/FreeSans.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 body {
     margin: 0;
-    font-family: 'HelveticaRegular', sans-serif;
+    font-family: 'FreeSans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -26,10 +33,54 @@ code {
     flex-direction: column;
 }
 
+
+/* Main */
+.main {
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    border-right: 3px solid #000;
+    width: 440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .sidebar-content {
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .sidebar-content {
+
+}
+
+.sidebar .sidebar-content .btn {
+    border-radius: 0;
+    background-color: #000;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'HelveticaRegular', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+}
+
 /* TextEditor */
 .text-editor {
     width: 61.875rem;
-    padding: 2rem 0 0;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
 }
 
@@ -58,20 +109,22 @@ code {
 /* FontSetting */
 .font-setting {
     width: 21.875rem;
-    margin: 6rem auto;
+    margin: 0 auto 6rem;
 }
 
 .font-setting .form-group {
     display: flex;
+    align-items: center;
 }
 
 .font-setting .form-control-range {
-    max-width: 15.625rem;
+    max-width: 180px;
+    margin-top: 8px;
 }
 
 .font-setting .form-label {
-    text-transform: lowercase;
-    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 32px;
     color: #000;
     margin-left: 1.25rem;
     margin-bottom: 0;
@@ -98,14 +151,31 @@ code {
     margin: 20rem 0;
 }
 
+/* Copyright */
+.copyright {
+    background: url('../images/copyright.svg') no-repeat center;
+    width: 20px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0 30px 0 30px;
+}
+
 /* Footer */
 .footer {
-    background-color: #323232;
+    border-top: 3px solid #000;
+    height: 70px;
     display: flex;
     text-align: center;
-    color: #fff;
-    padding: 60px 0;
+    font-size: 32px;
+    padding: 16px 0;
     margin-top: auto;
+}
+
+.footer .marquee-stroke {
+    text-transform: uppercase;
+    font-size: 32px;
+    overflow: hidden;
 }
 
 .footer h6 {
