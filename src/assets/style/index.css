@@ -15,6 +15,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'CensoredExprmntlbetaGX';
+    src: url('../fonts/CensoredExprmntlbetaGX.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
     margin: 0;
     font-family: 'FreeSans', sans-serif;
@@ -93,8 +100,12 @@ code {
 }
 
 .text-editor textarea {
+    max-height: 660px;
     border-radius: 0;
+    font-family: 'CensoredExprmntlbetaGX', sans-serif !important;
     outline-color: transparent !important;
+    overflow: hidden;
+    resize: none;
     padding: 0;
 }
 
@@ -175,7 +186,7 @@ code {
 .footer .marquee-stroke {
     text-transform: uppercase;
     font-size: 32px;
-    margin: 16px 0;
+    margin: 11px 0;
     animation-name: marquee;
 }
 
