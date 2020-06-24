@@ -13,10 +13,10 @@ function App() {
             <Router>
                 <NavigationBar/>
                 <div className='content'>
-                    <Route path='font-presentation/about' exact component={About}/>
-                    <Route path='font-presentation/' component={Editor} exact/>
-                    <Route path='font-presentation/font-in-se' component={Gallery}/>
-                    <Route path='font-presentation/store' component={Store}/>
+                    <Route path='/about' exact component={About}/>
+                    <Route path='/' component={Editor} exact/>
+                    <Route path='/font-in-se' component={Gallery}/>
+                    <Route path='/store' component={Store}/>
                     <div className='copyright'/>
                 </div>
                 <Footer/>
