@@ -172,16 +172,19 @@ code {
 
 /* About */
 .about {
+    width: 100%;
     text-align: center;
 }
 
 /* Gallery */
 .gallery {
+    width: 100%;
     text-align: center;
 }
 
 /* Store */
 .store {
+    width: 100%;
     text-align: center;
 }
 
