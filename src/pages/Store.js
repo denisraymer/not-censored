@@ -4,7 +4,7 @@ import {Badge} from "react-bootstrap";
 const Store = () => {
     return (
         <div className='store'>
-            <h1>Скоро будет <Badge variant="secondary">100%</Badge></h1>
+            <h1>Скоро будет <Badge variant="secondary">50/50</Badge></h1>
         </div>
     )
 }
