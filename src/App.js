@@ -14,9 +14,6 @@ function App() {
                 <NavigationBar/>
                 <div className='content'>
                     <Route path='/about' exact component={About}/>
-                    <Route path='/about/:id' render={({match}) => {
-                        return <h1>H1</h1>
-                    }}/>
                     <Route path='/' component={Editor} exact/>
                     <Route path='/font-in-se' component={Gallery}/>
                     <Route path='/store' component={Store}/>
