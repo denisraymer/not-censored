@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/font-presentation/static/css/main.36bfb84a.chunk.css",
+    "main.css": "/font-presentation/static/css/main.c24f6e04.chunk.css",
     "main.js": "/font-presentation/static/js/main.9f62b782.chunk.js",
     "main.js.map": "/font-presentation/static/js/main.9f62b782.chunk.js.map",
     "runtime-main.js": "/font-presentation/static/js/runtime-main.119592b2.js",
@@ -9,10 +9,10 @@
     "static/js/2.7e286f63.chunk.js": "/font-presentation/static/js/2.7e286f63.chunk.js",
     "static/js/2.7e286f63.chunk.js.map": "/font-presentation/static/js/2.7e286f63.chunk.js.map",
     "index.html": "/font-presentation/index.html",
-    "precache-manifest.d4e5cc16b33cd7133d1115bf16243df4.js": "/font-presentation/precache-manifest.d4e5cc16b33cd7133d1115bf16243df4.js",
+    "precache-manifest.4a814d1218ce3a6f18d3ccaa8a352fce.js": "/font-presentation/precache-manifest.4a814d1218ce3a6f18d3ccaa8a352fce.js",
     "service-worker.js": "/font-presentation/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/font-presentation/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.36bfb84a.chunk.css.map": "/font-presentation/static/css/main.36bfb84a.chunk.css.map",
+    "static/css/main.c24f6e04.chunk.css.map": "/font-presentation/static/css/main.c24f6e04.chunk.css.map",
     "static/js/2.7e286f63.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.7e286f63.chunk.js.LICENSE.txt",
     "static/media/index.css": "/font-presentation/static/media/dice-01.4241bd55.png",
     "static/media/image_01.png": "/font-presentation/static/media/image_01.e0aaed8c.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.119592b2.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.7e286f63.chunk.js",
-    "static/css/main.36bfb84a.chunk.css",
+    "static/css/main.c24f6e04.chunk.css",
     "static/js/main.9f62b782.chunk.js"
   ]
 }
