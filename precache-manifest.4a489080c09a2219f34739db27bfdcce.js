@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "880c762ce8b9e3bb569d2cd870bb2486",
+    "revision": "637d7a782ef26f4427891d140a9acc70",
     "url": "/font-presentation/index.html"
   },
   {
-    "revision": "537b34ff110f6216100a",
+    "revision": "4df0a91ecc0837c92cd3",
     "url": "/font-presentation/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "51f20fcd15b31fc74d3b",
-    "url": "/font-presentation/static/css/main.59e39651.chunk.css"
+    "revision": "a51edb085de709e867f2",
+    "url": "/font-presentation/static/css/main.0f7cbb7f.chunk.css"
   },
   {
-    "revision": "537b34ff110f6216100a",
-    "url": "/font-presentation/static/js/2.5a87009e.chunk.js"
+    "revision": "4df0a91ecc0837c92cd3",
+    "url": "/font-presentation/static/js/2.7e286f63.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/font-presentation/static/js/2.5a87009e.chunk.js.LICENSE.txt"
+    "url": "/font-presentation/static/js/2.7e286f63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51f20fcd15b31fc74d3b",
-    "url": "/font-presentation/static/js/main.e317daa6.chunk.js"
+    "revision": "a51edb085de709e867f2",
+    "url": "/font-presentation/static/js/main.9f62b782.chunk.js"
   },
   {
     "revision": "9a20ff5c2f9b71449d86",
@@ -54,5 +54,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4241bd555fc4f3e35475106f513c07a9",
     "url": "/font-presentation/static/media/dice-01.4241bd55.png"
+  },
+  {
+    "revision": "e0aaed8c1aabdfd4f6a965b18407d624",
+    "url": "/font-presentation/static/media/image_01.e0aaed8c.png"
+  },
+  {
+    "revision": "9cd7670267987ab595d3005d1d007b27",
+    "url": "/font-presentation/static/media/image_02.9cd76702.png"
+  },
+  {
+    "revision": "7203d86c2481398157db2f475ed8843a",
+    "url": "/font-presentation/static/media/image_03.7203d86c.png"
+  },
+  {
+    "revision": "4c644f1ec50273e08c0488322f029daf",
+    "url": "/font-presentation/static/media/image_04.4c644f1e.png"
   }
 ]);
