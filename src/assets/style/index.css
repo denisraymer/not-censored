@@ -29,6 +29,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a,
+a:active,
+a:hover {
+    transition: all .2s;
+    text-decoration: none;
+    outline: none !important;
+    color: #000;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -50,9 +59,12 @@ code {
     flex-direction: column;
 }
 
+/* Sidebar */
 .sidebar {
     border-right: 3px solid #000;
     width: 440px;
+    max-width: 440px;
+    min-width: 440px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -76,6 +88,32 @@ code {
     font-size: 30px;
     color: #fff;
     padding: 10px 40px;
+}
+
+.sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-navigation .sidebar-navigation__item {
+    text-transform: uppercase;
+    font-family: 'FreeSans', sans-serif;
+    font-size: 32px;
+    color: #000;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.sidebar-navigation .sidebar-navigation__item:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-navigation .sidebar-navigation__item a:hover {
+    transition: all .2s;
+    color: #05FF1E;
 }
 
 .content {
@@ -170,16 +208,73 @@ code {
     margin-bottom: 0;
 }
 
+/* Tab content */
+.tab-content {
+    width: 100%;
+}
+
 /* About */
 .about {
     width: 100%;
     text-align: center;
+    display: flex;
+}
+
+.about-content {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 80px 120px;
+}
+
+.about-content__text {
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.about-content .about-content__idea {
+    width: 100%;
+}
+.about-content .about-content__contacts {
+    width: 100%;
+}
+.about-content .about-content__font-download {
+    width: 100%;
+}
+
+.about-content .tab-pane {
+    display: none;
+}
+
+.about-content .active {
+    display: block;
 }
 
 /* Gallery */
 .gallery {
     width: 100%;
     text-align: center;
+    display: flex;
+}
+
+.gallery .gallery__item {
+    background-color: #C4C4C4;
+    width: 554px;
+    height: 554px;
+    margin: 30px 15px 20px;
+}
+
+.gallery .gallery__title {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.gallery .scroll-horizontal div {
+    align-items: center;
+    left: 0;
 }
 
 /* Store */

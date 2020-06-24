@@ -1,10 +1,43 @@
 import React from "react";
-import {Badge} from "react-bootstrap";
+import ScrollHorizontal from "react-scroll-horizontal";
 
 const Gallery = () => {
     return (
         <div className='gallery'>
-            <h1>Скоро будет <Badge variant="secondary">100%</Badge></h1>
+            <ScrollHorizontal>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_01.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_02.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_03.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_04.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_01.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_02.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_03.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_04.png')} alt=""/>
+                    <div className="gallery__title">@MINNIE_VINNI</div>
+                </div>
+            </ScrollHorizontal>
         </div>
     )
 }

@@ -29,3 +29,10 @@
     transition: all .2s;
     color: #05FF1E;
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #05FF1E;
+    overflow: hidden;
+}
