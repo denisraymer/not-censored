@@ -1,27 +1,47 @@
-import React from "react";
-import {Form} from "react-bootstrap";
-import NavigationBar from "../components/NavigationBar";
+import React from 'react';
+import {Form} from 'react-bootstrap';
 
 const Editor = () => {
     const [fontWeight, setFontWeight] = React.useState(100);
     const [fontSize, setFontSize] = React.useState(90);
     const [text, setText] = React.useState('');
-    // const [downloadUrl, setDownloadUrl] = React.useState('');
+    const [downloadUrl, setDownloadUrl] = React.useState('');
+
+    function wrapText(context, text, marginLeft, marginTop, maxWidth, lineHeight) {
+        let words = text.split(' ');
+        let countWords = words.length;
+        let line = '';
+        for (let n = 0; n < countWords; n++) {
+            let testLine = line + words[n] + ' ';
+            let testWidth = context.measureText(testLine).width;
+            if (testWidth > maxWidth) {
+                context.fillText(line, marginLeft, marginTop);
+                line = words[n] + ' ';
+                marginTop += lineHeight;
+            }
+            else {
+                line = testLine;
+            }
+        }
+        return context.fillText(line, marginLeft, marginTop);
+    }
 
     React.useEffect(() => {
-        // const canvas = document.getElementById('canvas')
-        // canvas.clearRect(0, 0, canvas.width, canvas.height)
-        // canvas.fillText(text, 10, 50)
-        // canvas.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
-        // setDownloadUrl(canvas.toDataUrl())
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
+        wrapText(ctx, text, 10, 160, 1110, 120)
+        ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
+        setDownloadUrl(canvas.toDataURL())
     }, [text])
 
     React.useEffect(() => {
-        // const canvas = document.getElementById('canvas')
-        // canvas.clearRect(0, 0, canvas.width, canvas.height)
-        // canvas.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
-        // canvas.fillText(text, 10, 50)
-        // setDownloadUrl(canvas.toDataURL())
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
+        wrapText(ctx, text, 10, 160, 1110, 120)
+        ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
+        setDownloadUrl(canvas.toDataURL())
     }, [fontSize, fontWeight])
 
     const textStyle = {
@@ -43,8 +63,8 @@ const Editor = () => {
                 <div className='sidebar-content'>
                     <div className='font-setting'>
                         <Form>
-                            <Form.Group controlId="formFontWeightRange">
-                                <Form.Control type="range"
+                            <Form.Group controlId='formFontWeightRange'>
+                                <Form.Control type='range'
                                               onChange={(e) => setFontSize(e.target.value)}
                                               defaultValue='100'
                                               step='1'
@@ -52,8 +72,8 @@ const Editor = () => {
                                               max='160'/>
                                 <Form.Label>Размер</Form.Label>
                             </Form.Group>
-                            <Form.Group controlId="formFontSizeRange">
-                                <Form.Control type="range"
+                            <Form.Group controlId='formFontSizeRange'>
+                                <Form.Control type='range'
                                               onChange={(e) => setFontWeight(e.target.value)}
                                               defaultValue='100'
                                               step='1'
@@ -63,22 +83,22 @@ const Editor = () => {
                             </Form.Group>
                             <button type='button'
                                     className='random'
-                                    onClick={(e) => setText(randomMatuck)}
+                                    onClick={() => setText(randomMatuck)}
                                     style={{}}>
                                 <img src={require(`../assets/images/dice/dice-0${randomImages}.png`)}
-                                     alt="" width='60px' height='60px'/>
+                                     alt='' width='60px' height='60px'/>
                             </button>
-                            {/*<a download href={downloadUrl} target="_blank" className='btn btn-dark'>*/}
+                            {/*<a download href={downloadUrl} target='_blank' className='btn btn-dark'>*/}
                             {/*    Download*/}
                             {/*</a>*/}
                         </Form>
                     </div>
-                    <div className='btn'>Сохранить</div>
+                    <a download href={downloadUrl} target='_blank' className='btn'>Сохранить</a>
                 </div>
             </div>
             <div className='text-editor'>
                 <textarea
-                    placeholder="ЗДЕСЬ МОЖНО МАТЕРИТЬСЯ "
+                    placeholder='ЗДЕСЬ МОЖНО МАТЕРИТЬСЯ '
                     onChange={(e) => setText(e.target.value)}
                     style={textStyle}
                     value={text}/>
