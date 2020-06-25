@@ -1,47 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d594ae4b77478081edc3dde38c63092",
+    "revision": "8e6ba0da7632df85a7196b495592ad49",
     "url": "/font-presentation/index.html"
   },
   {
-    "revision": "cd57e4eab4a2a4aa1011",
+    "revision": "12d8e9f4d2d57e453716",
     "url": "/font-presentation/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "0f2d77a6ae6add29d0d9",
-    "url": "/font-presentation/static/css/main.8303f272.chunk.css"
+    "revision": "457af71e21bbf5a3391d",
+    "url": "/font-presentation/static/css/main.db1d5804.chunk.css"
   },
   {
-    "revision": "cd57e4eab4a2a4aa1011",
-    "url": "/font-presentation/static/js/2.dfd445a4.chunk.js"
+    "revision": "12d8e9f4d2d57e453716",
+    "url": "/font-presentation/static/js/2.4017d6f5.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/font-presentation/static/js/2.dfd445a4.chunk.js.LICENSE.txt"
+    "url": "/font-presentation/static/js/2.4017d6f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f2d77a6ae6add29d0d9",
-    "url": "/font-presentation/static/js/main.f508fb35.chunk.js"
+    "revision": "457af71e21bbf5a3391d",
+    "url": "/font-presentation/static/js/main.ecabf840.chunk.js"
   },
   {
     "revision": "9a20ff5c2f9b71449d86",
     "url": "/font-presentation/static/js/runtime-main.119592b2.js"
-  },
-  {
-    "revision": "5b972d739418ff7a17e60833872203a0",
-    "url": "/font-presentation/static/media/FreeSans.5b972d73.ttf"
-  },
-  {
-    "revision": "55529b248297a63ba84e516608241db3",
-    "url": "/font-presentation/static/media/HelveticaRegular.55529b24.ttf"
-  },
-  {
-    "revision": "d41d8cd98f00b204e9800998ecf8427e",
-    "url": "/font-presentation/static/media/HelveticaRegular.d41d8cd9.eot"
-  },
-  {
-    "revision": "d41d8cd98f00b204e9800998ecf8427e",
-    "url": "/font-presentation/static/media/HelveticaRegular.d41d8cd9.woff"
   },
   {
     "revision": "3941b681695a251a9ee38d3791dcaa77",
@@ -94,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4c644f1ec50273e08c0488322f029daf",
     "url": "/font-presentation/static/media/image_04.4c644f1e.png"
+  },
+  {
+    "revision": "81ac4fdf06ba9c5ab678dec3ff20f953",
+    "url": "/font-presentation/static/media/image_04.81ac4fdf.jpg"
   },
   {
     "revision": "dfb5f87faf586c8be81b689e3fc5b7c2",
