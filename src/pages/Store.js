@@ -1,10 +1,48 @@
 import React from "react";
 import {Badge} from "react-bootstrap";
+import ScrollHorizontal from "react-scroll-horizontal";
 
 const Store = () => {
     return (
         <div className='store'>
-            <h1>Скоро будет <Badge variant="secondary">50/50</Badge></h1>
+            <div className='sidebar'>
+                <div className='sidebar-content'>
+                    <div className="sidebar-content__title">
+                        ЛОНГСЛИВ ОХУЕНЧИК
+                    </div>
+                    <div className="sidebar-content__size">
+                        <ul className='sidebar-content__grid-size'>
+                            <li className='sidebar-content__grid-size-item'>РАЗМЕР</li>
+                            <li className='sidebar-content__grid-size-item'>S</li>
+                            <li className='sidebar-content__grid-size-item'>M</li>
+                            <li className='sidebar-content__grid-size-item'>L</li>
+                        </ul>
+                    </div>
+                    <button className="sidebar-content__order">ПРЕДЗАКАЗ</button>
+                </div>
+            </div>
+            <ScrollHorizontal>
+                <div className='store__item'>
+                    <img src={require('../assets/images/gallery/image_01.png')} alt=""/>
+                    <div className="store__title">БРЕЛОК ПИЗДЕЦ <br/> 2500.- Р</div>
+                </div>
+                <div className='store__item'>
+                    <img src={require('../assets/images/gallery/image_02.png')} alt=""/>
+                    <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
+                </div>
+                <div className='store__item'>
+                    <img src={require('../assets/images/gallery/image_03.png')} alt=""/>
+                    <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
+                </div>
+                <div className='store__item'>
+                    <img src={require('../assets/images/gallery/image_04.png')} alt=""/>
+                    <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
+                </div>
+                <div className='store__item'>
+                    <img src={require('../assets/images/gallery/image_05.png')} alt=""/>
+                    <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
+                </div>
+            </ScrollHorizontal>
         </div>
     )
 }

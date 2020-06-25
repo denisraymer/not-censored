@@ -36,3 +36,7 @@
     color: #05FF1E;
     overflow: hidden;
 }
+
+.nav-link-active {
+    color: #05FF1E !important;
+}

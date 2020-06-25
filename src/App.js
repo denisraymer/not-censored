@@ -13,7 +13,7 @@ function App() {
             <Router>
                 <NavigationBar/>
                 <div className='content'>
-                    <Route path='/about' exact component={About}/>
+                    <Route path='/about' component={About}/>
                     <Route path='/' component={Editor} exact/>
                     <Route path='/font-in-se' component={Gallery}/>
                     <Route path='/store' component={Store}/>

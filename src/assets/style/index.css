@@ -171,8 +171,7 @@ code {
 .random {
     border-radius: 50px;
     border: 2px solid #000;
-    background: #fff url('../images/dice-01.png') no-repeat center;
-    background-size: cover;
+    background-color: #fff;
     width: 70px;
     height: 70px;
     overflow: hidden;
@@ -269,7 +268,7 @@ code {
 .gallery .gallery__title {
     text-align: left;
     font-size: 16px;
-    margin-left: 15px;
+    margin-top: 15px;
 }
 
 .gallery .scroll-horizontal div {
@@ -281,6 +280,105 @@ code {
 .store {
     width: 100%;
     text-align: center;
+    display: flex;
+}
+
+.store .store__item {
+    width: 554px;
+    min-height: 554px;
+    overflow: hidden;
+    margin: 30px 15px 20px;
+}
+
+.store .store__item img {
+    border: 3px solid transparent;
+    width: 100%;
+    transition: all .2s;
+}
+
+.store .store__item:hover img {
+    border: 3px solid #2805FF;
+    width: 100%;
+    transition: all .2s;
+}
+
+.store .store__item:hover {
+    cursor: pointer;
+}
+
+.store .store__title {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.store .scroll-horizontal div {
+    align-items: center;
+    left: 0;
+}
+
+.store .sidebar-content {
+    text-align: left;
+}
+
+.store .sidebar-content__title {
+    font-size: 32px;
+}
+
+.store .sidebar-content__size {
+    font-size: 32px;
+    margin: 60px 0;
+}
+
+.store .sidebar-content__grid-size {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.store .sidebar-content__grid-size-item {
+    border: 2px solid;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+    padding: 2px 16px 1px;
+    margin-left: 6px;
+}
+
+.store .sidebar-content__grid-size-item:hover {
+    border: 2px solid #05FF1E;
+    transition: all .2s;
+    color: #05FF1E;
+}
+
+.store .sidebar-content__grid-size-item:hover:first-child {
+    border: 2px solid #fff;
+    cursor: text;
+    color: #000;
+}
+
+.store .sidebar-content__grid-size-item:first-child {
+    border: 2px solid #fff;
+    padding: 0;
+    margin-left: 0;
+}
+
+.store .sidebar-content__order {
+    border: 2px solid;
+    background-color: #fff;
+    transition: all .2s;
+    font-size: 32px;
+    outline: none;
+    padding: 15px 40px 10px;
+}
+
+.store .sidebar-content__order:hover {
+    border: 2px solid #05FF1E;
+    color: #05FF1E;
+    transition: all .2s;
 }
 
 .about h1,

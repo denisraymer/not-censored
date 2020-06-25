@@ -34,9 +34,7 @@ const Editor = () => {
         return matuck[Math.floor(Math.random() * Math.floor(9)) + 1]
     }
 
-    const randomImages = {
-        background: `url('../assets/images/dice-0${Math.floor(Math.random() * Math.floor(3)) + 1}.png') no-repeat center`
-    }
+    const randomImages = Math.floor(Math.random() * Math.floor(3)) + 1
 
     return (
         <React.Fragment>
@@ -67,6 +65,8 @@ const Editor = () => {
                                     className='random'
                                     onClick={(e) => setText(randomMatuck)}
                                     style={{}}>
+                                <img src={require(`../assets/images/dice/dice-0${randomImages}.png`)}
+                                     alt="" width='60px' height='60px'/>
                             </button>
                             {/*<a download href={downloadUrl} target="_blank" className='btn btn-dark'>*/}
                             {/*    Download*/}
