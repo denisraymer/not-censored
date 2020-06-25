@@ -25,6 +25,7 @@ const NavigationBar = () => {
                     <Nav.Link href="/">ENG</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
+            <div className="mob-navbar-title">ВЫСКАЗАТЬСЯ</div>
         </Navbar>
     )
 }

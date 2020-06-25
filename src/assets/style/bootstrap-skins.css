@@ -40,3 +40,19 @@
 .nav-link-active {
     color: #05FF1E !important;
 }
+
+@media (max-width: 1390px) {
+    /* navigation */
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 24px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 990px) {
+    /* navigation */
+    .navbar-light .navbar-toggler {
+        display: none;
+    }
+}
