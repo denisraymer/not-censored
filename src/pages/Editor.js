@@ -95,7 +95,7 @@ const Editor = () => {
                             {/*</a>*/}
                         </Form>
                     </div>
-                    <a download href={downloadUrl} target='_blank' className='btn'>Сохранить</a>
+                    <a download href={downloadUrl} rel="noopener noreferrer" className='btn'>Сохранить</a>
                 </div>
             </div>
             <div className='text-editor'>

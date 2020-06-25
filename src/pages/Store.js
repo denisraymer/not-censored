@@ -1,5 +1,4 @@
 import React from "react";
-import {Badge} from "react-bootstrap";
 import ScrollHorizontal from "react-scroll-horizontal";
 
 const Store = () => {
@@ -23,23 +22,23 @@ const Store = () => {
             </div>
             <ScrollHorizontal>
                 <div className='store__item'>
-                    <img src={require('../assets/images/gallery/image_01.png')} alt=""/>
+                    <img src={require('../assets/images/store/image_01.png')} alt=""/>
                     <div className="store__title">БРЕЛОК ПИЗДЕЦ <br/> 2500.- Р</div>
                 </div>
                 <div className='store__item'>
-                    <img src={require('../assets/images/gallery/image_02.png')} alt=""/>
+                    <img src={require('../assets/images/store/image_02.png')} alt=""/>
                     <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
                 </div>
                 <div className='store__item'>
-                    <img src={require('../assets/images/gallery/image_03.png')} alt=""/>
+                    <img src={require('../assets/images/store/image_03.png')} alt=""/>
                     <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
                 </div>
                 <div className='store__item'>
-                    <img src={require('../assets/images/gallery/image_04.png')} alt=""/>
+                    <img src={require('../assets/images/store/image_04.png')} alt=""/>
                     <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
                 </div>
                 <div className='store__item'>
-                    <img src={require('../assets/images/gallery/image_05.png')} alt=""/>
+                    <img src={require('../assets/images/store/image_05.png')} alt=""/>
                     <div className="store__title">ЛОНГСЛИВ ОХУЕНЧИК <br/> 1800.- Р</div>
                 </div>
             </ScrollHorizontal>

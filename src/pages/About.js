@@ -3,7 +3,6 @@ import {Nav, Tab} from "react-bootstrap";
 
 const About = () => {
     const [sidebarHeight, setSidebarHeight] = useState(null);
-    const [activeTab, setActiveTab] = useState(0);
 
     // ClientHeight
     useEffect(() => {
