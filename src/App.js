@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Store from "./pages/Store";

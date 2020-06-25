@@ -34,7 +34,7 @@ const Editor = () => {
         wrapText(ctx, text, 240, 160, 3000, 120)
         ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
         setDownloadUrl(canvas.toDataURL())
-    }, [text])
+    }, [text]);
 
     React.useEffect(() => {
         const canvas = document.getElementById('canvas');
@@ -43,20 +43,20 @@ const Editor = () => {
         wrapText(ctx, text, 240, 160, 3000, 120)
         ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
         setDownloadUrl(canvas.toDataURL())
-    }, [fontSize, fontWeight])
+    }, [fontSize, fontWeight]);
 
     const textStyle = {
         fontSize: `${fontSize}px`,
         fontVariationSettings: `'wdth' 400, 'wght' ${fontWeight}`
     }
 
-    const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки']
+    const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки'];
 
     const randomMatuck = () => {
-        return matuck[Math.floor(Math.random() * Math.floor(9)) + 1]
+        return matuck[Math.floor(Math.random() * Math.floor(9)) + 1];
     }
 
-    const randomImages = Math.floor(Math.random() * Math.floor(3)) + 1
+    const randomImages = Math.floor(Math.random() * Math.floor(3)) + 1;
 
     return (
         <React.Fragment>
@@ -72,7 +72,7 @@ const Editor = () => {
                                               step='1'
                                               min='20'
                                               max='160'/>
-                                <Form.Label>Размер {fontSize}</Form.Label>
+                                <Form.Label>Размер</Form.Label>
                             </Form.Group>
                             <Form.Group controlId='formFontSizeRange'>
                                 <Form.Control type='range'
@@ -81,7 +81,7 @@ const Editor = () => {
                                               step='1'
                                               min='100'
                                               max='900'/>
-                                <Form.Label>Цензура {fontWeight}</Form.Label>
+                                <Form.Label>Цензура</Form.Label>
                             </Form.Group>
                             <button type='button'
                                     className='random'
