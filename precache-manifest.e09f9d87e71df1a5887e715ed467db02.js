@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3454983de21f0ed4d03bf1e4f990a60c",
+    "revision": "dc0ff159a1d313f3af8d6d8246fd46fa",
     "url": "/font-presentation/index.html"
   },
   {
-    "revision": "12d8e9f4d2d57e453716",
-    "url": "/font-presentation/static/css/2.af3c1da9.chunk.css"
+    "revision": "2ed5d768dc74d04cf1da",
+    "url": "/font-presentation/static/css/2.ae627731.chunk.css"
   },
   {
-    "revision": "ffb399e1f2b48bc1210b",
-    "url": "/font-presentation/static/css/main.2fa066b5.chunk.css"
+    "revision": "20c78c541373dc543f91",
+    "url": "/font-presentation/static/css/main.de5b39a4.chunk.css"
   },
   {
-    "revision": "12d8e9f4d2d57e453716",
-    "url": "/font-presentation/static/js/2.4017d6f5.chunk.js"
+    "revision": "2ed5d768dc74d04cf1da",
+    "url": "/font-presentation/static/js/2.3174e3f5.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/font-presentation/static/js/2.4017d6f5.chunk.js.LICENSE.txt"
+    "url": "/font-presentation/static/js/2.3174e3f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffb399e1f2b48bc1210b",
-    "url": "/font-presentation/static/js/main.ecabf840.chunk.js"
+    "revision": "20c78c541373dc543f91",
+    "url": "/font-presentation/static/js/main.432b9398.chunk.js"
   },
   {
     "revision": "9a20ff5c2f9b71449d86",
@@ -86,5 +86,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dfb5f87faf586c8be81b689e3fc5b7c2",
     "url": "/font-presentation/static/media/image_05.dfb5f87f.png"
+  },
+  {
+    "revision": "ef817fa22e9181593fbc83c904b31a4e",
+    "url": "/font-presentation/static/media/image_05.ef817fa2.jpg"
+  },
+  {
+    "revision": "7346fb64c687259b2e521a14d86a8603",
+    "url": "/font-presentation/static/media/image_06.7346fb64.jpg"
+  },
+  {
+    "revision": "713c8561f0e23a2c06fc0f1c91860d57",
+    "url": "/font-presentation/static/media/image_07.713c8561.jpg"
   }
 ]);
