@@ -258,6 +258,10 @@ code {
     display: flex;
 }
 
+.gallery .gallery__item img {
+    width: 100%;
+}
+
 .gallery .gallery__item {
     background-color: #C4C4C4;
     width: 554px;
