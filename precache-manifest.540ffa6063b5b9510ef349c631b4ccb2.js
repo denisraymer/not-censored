@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92b2ff1a69ff26a8a8ee357ed413719d",
+    "revision": "b26cded03f1371c09298233563e508f7",
     "url": "/font-presentation/index.html"
   },
   {
-    "revision": "511d74e2484b65d6623c",
+    "revision": "4ef4c26cf5927213cf58",
     "url": "/font-presentation/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "0f31110165dc8ce92eb7",
+    "revision": "17e24953339cd14a2468",
     "url": "/font-presentation/static/css/main.df5ff084.chunk.css"
   },
   {
-    "revision": "511d74e2484b65d6623c",
-    "url": "/font-presentation/static/js/2.00c4be08.chunk.js"
+    "revision": "4ef4c26cf5927213cf58",
+    "url": "/font-presentation/static/js/2.096e325f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/font-presentation/static/js/2.00c4be08.chunk.js.LICENSE.txt"
+    "url": "/font-presentation/static/js/2.096e325f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f31110165dc8ce92eb7",
-    "url": "/font-presentation/static/js/main.9fb098f0.chunk.js"
+    "revision": "17e24953339cd14a2468",
+    "url": "/font-presentation/static/js/main.cd9647d5.chunk.js"
   },
   {
     "revision": "9a20ff5c2f9b71449d86",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/font-presentation/static/media/dice-04.eeda5739.png"
   },
   {
+    "revision": "6073fbf17f5d0dd250fc02b904590318",
+    "url": "/font-presentation/static/media/image_01.6073fbf1.jpg"
+  },
+  {
     "revision": "9c7e237ad86679e3dd7c7fb03c17dc2e",
     "url": "/font-presentation/static/media/image_01.9c7e237a.png"
   },
@@ -76,8 +80,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/font-presentation/static/media/image_02.9cd76702.png"
   },
   {
+    "revision": "f3e873e43c0da71073e1e0009d6c443a",
+    "url": "/font-presentation/static/media/image_02.f3e873e4.jpg"
+  },
+  {
     "revision": "7203d86c2481398157db2f475ed8843a",
     "url": "/font-presentation/static/media/image_03.7203d86c.png"
+  },
+  {
+    "revision": "d1bd06e30c6b0fb59ced1bb3e4cc01e5",
+    "url": "/font-presentation/static/media/image_03.d1bd06e3.jpg"
   },
   {
     "revision": "4c644f1ec50273e08c0488322f029daf",
