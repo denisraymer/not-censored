@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "543686ae253505d36e4a3d9bffa3fe79",
+    "revision": "92b2ff1a69ff26a8a8ee357ed413719d",
     "url": "/font-presentation/index.html"
   },
   {
-    "revision": "b1f341fa44720eb8dcaf",
+    "revision": "511d74e2484b65d6623c",
     "url": "/font-presentation/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "d4c88542d157053a688a",
+    "revision": "0f31110165dc8ce92eb7",
     "url": "/font-presentation/static/css/main.df5ff084.chunk.css"
   },
   {
-    "revision": "b1f341fa44720eb8dcaf",
-    "url": "/font-presentation/static/js/2.5cd1e145.chunk.js"
+    "revision": "511d74e2484b65d6623c",
+    "url": "/font-presentation/static/js/2.00c4be08.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/font-presentation/static/js/2.5cd1e145.chunk.js.LICENSE.txt"
+    "url": "/font-presentation/static/js/2.00c4be08.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4c88542d157053a688a",
-    "url": "/font-presentation/static/js/main.530e9b94.chunk.js"
+    "revision": "0f31110165dc8ce92eb7",
+    "url": "/font-presentation/static/js/main.9fb098f0.chunk.js"
   },
   {
     "revision": "9a20ff5c2f9b71449d86",

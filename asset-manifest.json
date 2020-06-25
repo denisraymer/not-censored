@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/font-presentation/static/css/main.df5ff084.chunk.css",
-    "main.js": "/font-presentation/static/js/main.530e9b94.chunk.js",
-    "main.js.map": "/font-presentation/static/js/main.530e9b94.chunk.js.map",
+    "main.js": "/font-presentation/static/js/main.9fb098f0.chunk.js",
+    "main.js.map": "/font-presentation/static/js/main.9fb098f0.chunk.js.map",
     "runtime-main.js": "/font-presentation/static/js/runtime-main.119592b2.js",
     "runtime-main.js.map": "/font-presentation/static/js/runtime-main.119592b2.js.map",
     "static/css/2.af3c1da9.chunk.css": "/font-presentation/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5cd1e145.chunk.js": "/font-presentation/static/js/2.5cd1e145.chunk.js",
-    "static/js/2.5cd1e145.chunk.js.map": "/font-presentation/static/js/2.5cd1e145.chunk.js.map",
+    "static/js/2.00c4be08.chunk.js": "/font-presentation/static/js/2.00c4be08.chunk.js",
+    "static/js/2.00c4be08.chunk.js.map": "/font-presentation/static/js/2.00c4be08.chunk.js.map",
     "index.html": "/font-presentation/index.html",
-    "precache-manifest.a83f629d4b2e5c2e84fdc6ae53f93ed7.js": "/font-presentation/precache-manifest.a83f629d4b2e5c2e84fdc6ae53f93ed7.js",
+    "precache-manifest.d6959c3f0ed50a5f3f43b40f47bb4d75.js": "/font-presentation/precache-manifest.d6959c3f0ed50a5f3f43b40f47bb4d75.js",
     "service-worker.js": "/font-presentation/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/font-presentation/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.df5ff084.chunk.css.map": "/font-presentation/static/css/main.df5ff084.chunk.css.map",
-    "static/js/2.5cd1e145.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.5cd1e145.chunk.js.LICENSE.txt",
+    "static/js/2.00c4be08.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.00c4be08.chunk.js.LICENSE.txt",
     "static/media/index.css": "/font-presentation/static/media/copyright.2efe6fbe.svg",
     "static/media/dice-01.png": "/font-presentation/static/media/dice-01.4241bd55.png",
     "static/media/dice-02.png": "/font-presentation/static/media/dice-02.7c963842.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.119592b2.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5cd1e145.chunk.js",
+    "static/js/2.00c4be08.chunk.js",
     "static/css/main.df5ff084.chunk.css",
-    "static/js/main.530e9b94.chunk.js"
+    "static/js/main.9fb098f0.chunk.js"
   ]
 }
