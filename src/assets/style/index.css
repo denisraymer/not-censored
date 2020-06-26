@@ -78,6 +78,14 @@ code {
     padding: 10px 40px;
 }
 
+.sidebar__about {
+    justify-content: flex-start;
+}
+
+.sidebar__content {
+    margin-left: 23px;
+}
+
 .sidebar-navigation {
     display: flex;
     flex-direction: column;

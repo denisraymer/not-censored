@@ -15,8 +15,8 @@ const About = () => {
 
     return (
         <Tab.Container id="left-tabs-example" defaultActiveKey="idea">
-            <div className='sidebar'>
-                <div className='sidebar-content'>
+            <div className='sidebar sidebar__about'>
+                <div className='sidebar-content sidebar__content'>
                     <Nav variant="pills" className="sidebar-navigation flex-column">
                         <Nav.Item>
                             <Nav.Link eventKey="idea" className='sidebar-navigation__item'>

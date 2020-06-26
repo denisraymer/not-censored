@@ -21,8 +21,8 @@ const NavigationBar = () => {
                     <NavLink className='nav-link'
                              to='/store'
                              activeClassName='nav-link-active'>МАГАЗИН</NavLink>
-                    <Nav.Link href="/">КОРЗИНА (0)</Nav.Link>
-                    <Nav.Link href="/">ENG 1</Nav.Link>
+                    <Nav.Link href="/" disabled>КОРЗИНА (0)</Nav.Link>
+                    <Nav.Link href="/" disabled>ENG 1</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             <div className="mob-navbar-title">ВЫСКАЗАТЬСЯ</div>
