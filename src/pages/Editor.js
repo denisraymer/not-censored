@@ -31,7 +31,7 @@ const Editor = () => {
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
         ctx.clearRect(0, 0, canvas.width, canvas.height)
-        wrapText(ctx, text, 240, 160, 3000, 120)
+        wrapText(ctx, text, 240, 160, 1000, 120)
         ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
         setDownloadUrl(canvas.toDataURL())
     }, [text]);
@@ -40,7 +40,7 @@ const Editor = () => {
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
         ctx.clearRect(0, 0, canvas.width, canvas.height)
-        wrapText(ctx, text, 240, 160, 3000, 120)
+        wrapText(ctx, text, 240, 160, 1000, 120)
         ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
         setDownloadUrl(canvas.toDataURL())
     }, [fontSize, fontWeight]);
@@ -60,7 +60,7 @@ const Editor = () => {
 
     return (
         <React.Fragment>
-            <canvas id='canvas' width={3000} height={3000} style={{display: 'none'}}/>
+            <canvas id='canvas' width={1000} height={1000} style={{display: 'none'}}/>
             <div className='sidebar'>
                 <div className='sidebar-content'>
                     <div className='font-setting'>
@@ -90,9 +90,6 @@ const Editor = () => {
                                 <img src={require(`../assets/images/dice/dice-0${randomImages}.png`)}
                                      alt='' width='60px' height='60px'/>
                             </button>
-                            {/*<a download href={downloadUrl} target='_blank' className='btn btn-dark'>*/}
-                            {/*    Download*/}
-                            {/*</a>*/}
                         </Form>
                     </div>
                     <a download href={downloadUrl} rel="noopener noreferrer" className='btn'>Сохранить</a>

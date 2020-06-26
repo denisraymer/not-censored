@@ -7,7 +7,7 @@ const Store = () => {
             <div className='sidebar'>
                 <div className='sidebar-content'>
                     <div className="sidebar-content__title">
-                        ЛОНГСЛИВ ОХУЕНЧИК
+                        ЛОНГСЛИВ <br/> ОХУЕНЧИК
                     </div>
                     <div className="sidebar-content__size">
                         <ul className='sidebar-content__grid-size'>

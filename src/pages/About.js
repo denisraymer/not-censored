@@ -72,7 +72,9 @@ const About = () => {
                                 СВЕТА СЕРГЕЕВА <br/>
                                 (СОЗДАТЕЛЬНИЦА И ДИЗАЙНЕР ШРИФТА)
                             </div>
-                            <div className="about-content__text">@MINNIE_VINNIE</div>
+                            <div className="about-content__text">
+                                <a href="https://www.instagram.com/minnie_vinni/" target='_blank'>@MINNIE_VINNIE</a>
+                            </div>
                             <div className="about-content__text">
                                 ФИДБЭК И КОЛЛАБОРАЦИИ: <br/>
                                 SVETLANASERGEEVA0896@GMAIL.COM
