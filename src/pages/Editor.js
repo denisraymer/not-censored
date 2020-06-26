@@ -7,6 +7,7 @@ const Editor = () => {
     const [text, setText] = React.useState('');
     const [downloadUrl, setDownloadUrl] = React.useState('');
     const [modalClose, setModalClose] = React.useState(true);
+    const [randomImages, setRandomImages] = React.useState(1)
 
     const wrapText = (context, text, marginLeft, marginTop, maxWidth, lineHeight) => {
         let words = text.split(' ');
@@ -52,11 +53,20 @@ const Editor = () => {
 
     const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки']
 
-    const randomMatuck = () => {
-        return matuck[Math.floor(Math.random() * Math.floor(9)) + 1];
-    }
+    // React.useEffect(() => {
+    //
+    //     console.log(randomValue.dice)
+    //
+    //     randomValue.dice = Math.floor(Math.random() * Math.floor(3)) + 1
+    //
+    //     console.log(randomValue.dice)
+    //
+    // }, [randomValue])
 
-    const randomImages = Math.floor(Math.random() * Math.floor(3)) + 1
+    const randomMatuck = () => {
+        setText(matuck[Math.floor(Math.random() * Math.floor(9)) + 1]);
+        setRandomImages(Math.floor(Math.random() * Math.floor(3)) + 1);
+    }
 
     const contentSize = () => {
         let clientWidth = document.getElementById('root').clientWidth
@@ -97,15 +107,16 @@ const Editor = () => {
                             </Form.Group>
                             <button type='button'
                                     className='random'
-                                    onClick={() => setText(randomMatuck)}
-                                    style={{}}>
+                                    onClick={randomMatuck}>
                                 <img src={require(`../assets/images/dice/dice-0${randomImages}.png`)}
                                      alt='' width='60px' height='60px'/>
                             </button>
                         </Form>
                     </div>
-                    <a download href={downloadUrl} onClick={() => setModalClose(!modalClose)} rel='noopener noreferrer'
-                       className='btn'>Сохранить</a>
+                    <a download
+                       href={downloadUrl}
+                       onClick={() => setModalClose(!modalClose)}
+                       rel='noopener noreferrer' className='btn'>Сохранить</a>
                 </div>
             </div>
             <div className='text-editor'>
