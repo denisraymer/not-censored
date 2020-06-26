@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/font-presentation/static/css/main.de5b39a4.chunk.css",
-    "main.js": "/font-presentation/static/js/main.62ecdd5b.chunk.js",
-    "main.js.map": "/font-presentation/static/js/main.62ecdd5b.chunk.js.map",
+    "main.css": "/font-presentation/static/css/main.e78c498f.chunk.css",
+    "main.js": "/font-presentation/static/js/main.059fbe88.chunk.js",
+    "main.js.map": "/font-presentation/static/js/main.059fbe88.chunk.js.map",
     "runtime-main.js": "/font-presentation/static/js/runtime-main.119592b2.js",
     "runtime-main.js.map": "/font-presentation/static/js/runtime-main.119592b2.js.map",
     "static/css/2.ae627731.chunk.css": "/font-presentation/static/css/2.ae627731.chunk.css",
-    "static/js/2.3174e3f5.chunk.js": "/font-presentation/static/js/2.3174e3f5.chunk.js",
-    "static/js/2.3174e3f5.chunk.js.map": "/font-presentation/static/js/2.3174e3f5.chunk.js.map",
+    "static/js/2.317bcaa4.chunk.js": "/font-presentation/static/js/2.317bcaa4.chunk.js",
+    "static/js/2.317bcaa4.chunk.js.map": "/font-presentation/static/js/2.317bcaa4.chunk.js.map",
     "index.html": "/font-presentation/index.html",
-    "precache-manifest.b621a8695ad0749abb5867a0dca85dfd.js": "/font-presentation/precache-manifest.b621a8695ad0749abb5867a0dca85dfd.js",
+    "precache-manifest.b7a9cf903af05b3c84985ab25a3fec89.js": "/font-presentation/precache-manifest.b7a9cf903af05b3c84985ab25a3fec89.js",
     "service-worker.js": "/font-presentation/service-worker.js",
     "static/css/2.ae627731.chunk.css.map": "/font-presentation/static/css/2.ae627731.chunk.css.map",
-    "static/css/main.de5b39a4.chunk.css.map": "/font-presentation/static/css/main.de5b39a4.chunk.css.map",
-    "static/js/2.3174e3f5.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.3174e3f5.chunk.js.LICENSE.txt",
+    "static/css/main.e78c498f.chunk.css.map": "/font-presentation/static/css/main.e78c498f.chunk.css.map",
+    "static/js/2.317bcaa4.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.317bcaa4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/font-presentation/static/media/copyright.2efe6fbe.svg",
     "static/media/dice-01.png": "/font-presentation/static/media/dice-01.4241bd55.png",
     "static/media/dice-02.png": "/font-presentation/static/media/dice-02.7c963842.png",
@@ -26,17 +26,19 @@
     "static/media/image_03.png": "/font-presentation/static/media/image_03.7203d86c.png",
     "static/media/image_03.jpg": "/font-presentation/static/media/image_03.d1bd06e3.jpg",
     "static/media/image_04.png": "/font-presentation/static/media/image_04.4c644f1e.png",
-    "static/media/image_04.jpg": "/font-presentation/static/media/image_04.81ac4fdf.jpg",
     "static/media/image_05.png": "/font-presentation/static/media/image_05.dfb5f87f.png",
-    "static/media/image_05.jpg": "/font-presentation/static/media/image_05.ef817fa2.jpg",
     "static/media/image_06.jpg": "/font-presentation/static/media/image_06.7346fb64.jpg",
-    "static/media/image_07.jpg": "/font-presentation/static/media/image_07.713c8561.jpg"
+    "static/media/image_08.jpg": "/font-presentation/static/media/image_08.00f74ca8.jpg",
+    "static/media/image_09.jpg": "/font-presentation/static/media/image_09.8b70b5ed.jpg",
+    "static/media/image_10.jpg": "/font-presentation/static/media/image_10.ca2bdd4a.jpg",
+    "static/media/image_11.jpg": "/font-presentation/static/media/image_11.b2554360.jpg",
+    "static/media/image_12.jpg": "/font-presentation/static/media/image_12.a70d6f2b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.119592b2.js",
     "static/css/2.ae627731.chunk.css",
-    "static/js/2.3174e3f5.chunk.js",
-    "static/css/main.de5b39a4.chunk.css",
-    "static/js/main.62ecdd5b.chunk.js"
+    "static/js/2.317bcaa4.chunk.js",
+    "static/css/main.e78c498f.chunk.css",
+    "static/js/main.059fbe88.chunk.js"
   ]
 }

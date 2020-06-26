@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "552e34e317c9ec1918fa9ce6e65169f6",
+    "revision": "90e2dcdfa1ee82d70cc1c26c6289e30f",
     "url": "/font-presentation/index.html"
   },
   {
-    "revision": "2ed5d768dc74d04cf1da",
+    "revision": "c15a7d42dae74507ca9d",
     "url": "/font-presentation/static/css/2.ae627731.chunk.css"
   },
   {
-    "revision": "443c24058a6ac1b7b0a8",
-    "url": "/font-presentation/static/css/main.de5b39a4.chunk.css"
+    "revision": "63690e458ff2e12e8373",
+    "url": "/font-presentation/static/css/main.e78c498f.chunk.css"
   },
   {
-    "revision": "2ed5d768dc74d04cf1da",
-    "url": "/font-presentation/static/js/2.3174e3f5.chunk.js"
+    "revision": "c15a7d42dae74507ca9d",
+    "url": "/font-presentation/static/js/2.317bcaa4.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/font-presentation/static/js/2.3174e3f5.chunk.js.LICENSE.txt"
+    "url": "/font-presentation/static/js/2.317bcaa4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "443c24058a6ac1b7b0a8",
-    "url": "/font-presentation/static/js/main.62ecdd5b.chunk.js"
+    "revision": "63690e458ff2e12e8373",
+    "url": "/font-presentation/static/js/main.059fbe88.chunk.js"
   },
   {
     "revision": "9a20ff5c2f9b71449d86",
@@ -80,23 +80,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/font-presentation/static/media/image_04.4c644f1e.png"
   },
   {
-    "revision": "81ac4fdf06ba9c5ab678dec3ff20f953",
-    "url": "/font-presentation/static/media/image_04.81ac4fdf.jpg"
-  },
-  {
     "revision": "dfb5f87faf586c8be81b689e3fc5b7c2",
     "url": "/font-presentation/static/media/image_05.dfb5f87f.png"
-  },
-  {
-    "revision": "ef817fa22e9181593fbc83c904b31a4e",
-    "url": "/font-presentation/static/media/image_05.ef817fa2.jpg"
   },
   {
     "revision": "7346fb64c687259b2e521a14d86a8603",
     "url": "/font-presentation/static/media/image_06.7346fb64.jpg"
   },
   {
-    "revision": "713c8561f0e23a2c06fc0f1c91860d57",
-    "url": "/font-presentation/static/media/image_07.713c8561.jpg"
+    "revision": "00f74ca8e38827b415c6c5b8774bc6c7",
+    "url": "/font-presentation/static/media/image_08.00f74ca8.jpg"
+  },
+  {
+    "revision": "8b70b5ed4d051a4be85fc7ecc43bfb2d",
+    "url": "/font-presentation/static/media/image_09.8b70b5ed.jpg"
+  },
+  {
+    "revision": "ca2bdd4ab3c1e707fb291df17b6e71ec",
+    "url": "/font-presentation/static/media/image_10.ca2bdd4a.jpg"
+  },
+  {
+    "revision": "b2554360e087e56d010721f25f1d3fd9",
+    "url": "/font-presentation/static/media/image_11.b2554360.jpg"
+  },
+  {
+    "revision": "a70d6f2bef80cf736381e3ca4852cde1",
+    "url": "/font-presentation/static/media/image_12.a70d6f2b.jpg"
   }
 ]);
