@@ -22,7 +22,7 @@ const Gallery = () => {
                     <div className="gallery__title">@spwilli_</div>
                 </div>
                 <div className='gallery__item'>
-                    <img src={require('../assets/images/gallery/image_09.jpg')} alt=""/>
+                    <img src={require('../assets/images/gallery/image_13.jpg')} alt=""/>
                     <div className="gallery__title">@spwilli_</div>
                 </div>
                 <div className='gallery__item'>
@@ -40,6 +40,10 @@ const Gallery = () => {
                 <div className='gallery__item'>
                     <img src={require('../assets/images/gallery/image_06.jpg')} alt=""/>
                     <div className="gallery__title">@kristina_viriasova</div>
+                </div>
+                <div className='gallery__item'>
+                    <img src={require('../assets/images/gallery/image_14.jpg')} alt=""/>
+                    <div className="gallery__title">@anvar.murazimov</div>
                 </div>
             </ScrollHorizontal>
         </div>

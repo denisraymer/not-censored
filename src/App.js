@@ -17,7 +17,6 @@ function App() {
                     <Route path='/' component={Editor} exact/>
                     <Route path='/font-in-se' component={Gallery}/>
                     <Route path='/store' component={Store}/>
-                    <div className='copyright'/>
                 </div>
                 <Footer/>
             </Router>

@@ -22,7 +22,7 @@ const NavigationBar = () => {
                              to='/store'
                              activeClassName='nav-link-active'>МАГАЗИН</NavLink>
                     <Nav.Link href="/" disabled>КОРЗИНА (0)</Nav.Link>
-                    <Nav.Link href="/" disabled>ENG 1</Nav.Link>
+                    <Nav.Link href="/" disabled>ENG</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             <div className="mob-navbar-title">ВЫСКАЗАТЬСЯ</div>

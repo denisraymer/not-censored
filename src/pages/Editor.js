@@ -6,8 +6,9 @@ const Editor = () => {
     const [fontSize, setFontSize] = React.useState(90);
     const [text, setText] = React.useState('');
     const [downloadUrl, setDownloadUrl] = React.useState('');
+    const [modalClose, setModalClose] = React.useState(true);
 
-    function wrapText(context, text, marginLeft, marginTop, maxWidth, lineHeight) {
+    const wrapText = (context, text, marginLeft, marginTop, maxWidth, lineHeight) => {
         let words = text.split(' ');
         let countWords = words.length;
         let line = '';
@@ -19,8 +20,7 @@ const Editor = () => {
                 context.textAlign = 'center';
                 line = words[n] + ' ';
                 marginTop += lineHeight;
-            }
-            else {
+            } else {
                 line = testLine;
             }
         }
@@ -50,13 +50,23 @@ const Editor = () => {
         fontVariationSettings: `'wdth' 400, 'wght' ${fontWeight}`
     }
 
-    const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки'];
+    const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки']
 
     const randomMatuck = () => {
         return matuck[Math.floor(Math.random() * Math.floor(9)) + 1];
     }
 
-    const randomImages = Math.floor(Math.random() * Math.floor(3)) + 1;
+    const randomImages = Math.floor(Math.random() * Math.floor(3)) + 1
+
+    const contentSize = () => {
+        let clientWidth = document.getElementById('root').clientWidth
+
+        if (clientWidth < 990) {
+            return modalClose
+        }
+
+        return !modalClose
+    }
 
     return (
         <React.Fragment>
@@ -68,6 +78,7 @@ const Editor = () => {
                             <Form.Group controlId='formFontWeightRange'>
                                 <Form.Control type='range'
                                               onChange={(e) => setFontSize(e.target.value)}
+                                              className='slider'
                                               defaultValue='100'
                                               step='1'
                                               min='20'
@@ -77,6 +88,7 @@ const Editor = () => {
                             <Form.Group controlId='formFontSizeRange'>
                                 <Form.Control type='range'
                                               onChange={(e) => setFontWeight(e.target.value)}
+                                              className='slider'
                                               defaultValue='100'
                                               step='1'
                                               min='100'
@@ -92,18 +104,39 @@ const Editor = () => {
                             </button>
                         </Form>
                     </div>
-                    <a download href={downloadUrl} rel="noopener noreferrer" className='btn'>Сохранить</a>
+                    <a download href={downloadUrl} onClick={() => setModalClose(!modalClose)} rel='noopener noreferrer'
+                       className='btn'>Сохранить</a>
                 </div>
             </div>
             <div className='text-editor'>
+                <div className='modal-block' style={{display: contentSize() ? 'flex' : 'none'}}>
+                    <div className='modal-block__btn' onClick={() => setModalClose(!modalClose)}>
+                        <img src={require('../assets/images/close.svg')} alt='close'/>
+                    </div>
+                    <div className='modal-block__text'>
+                        ЕСЛИ ВАМ НРАВИТСЯ, КАК ВЫГЛЯДИТ <br/>
+                        ПОЛУЧИВШИЙСЯ ТЕКСТ — МОЖЕТЕ НЕ ТОЛЬКО <br/>
+                        ОСТАВИТЬ ЕГО СЕБЕ, НО И ПОДЕЛИТЬСЯ <br/>
+                        ИМ В СОЦ.СЕТЯХ —
+                        <a href='https://www.instagram.com/minnie_vinni/' target='_blank'
+                           className='modal-block__link'> НАМ </a>
+                        БУДЕТ ПРИЯТНО!
+                    </div>
+                    <div className="mob-modal-block__text">
+                        Привет!<br/>Это тестовая<br/>страница шрифта (NOT)CENSORED.<br/>Вы можете попробовать шрифт,
+                        набрав любой текст, содержащий матерную лексику.<br/><br/>Полная версия сайта доступна для
+                        десктопа
+                    </div>
+                </div>
                 <textarea
                     placeholder='ЗДЕСЬ МОЖНО МАТЕРИТЬСЯ '
                     onChange={(e) => setText(e.target.value)}
                     style={textStyle}
                     value={text}/>
+                <div className='copyright'/>
             </div>
         </React.Fragment>
-    )
+    );
 }
 
 export default Editor
