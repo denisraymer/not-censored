@@ -10,8 +10,8 @@ const Store = () => {
                     {/*    ЛОНГСЛИВ <br/> ОХУЕНЧИК*/}
                     {/*</div>*/}
                     <div className="sidebar-content__size">
+                        <div className="sidebar-content__grid-size-title">РАЗМЕР</div>
                         <ul className='sidebar-content__grid-size'>
-                            <li className='sidebar-content__grid-size-item'>РАЗМЕР</li>
                             <li className='sidebar-content__grid-size-item'>S</li>
                             <li className='sidebar-content__grid-size-item'>M</li>
                             <li className='sidebar-content__grid-size-item'>L</li>

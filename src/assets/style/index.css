@@ -347,6 +347,10 @@ code {
     padding: 0;
 }
 
+.store .sidebar-content__grid-size-title {
+    text-align: left;
+}
+
 .store .sidebar-content__grid-size-item {
     border: 2px solid;
     list-style: none;
@@ -355,7 +359,8 @@ code {
     cursor: pointer;
     transition: all .2s;
     padding: 2px 16px 1px;
-    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 10px;
 }
 
 .store .sidebar-content__grid-size-item:hover {
@@ -370,11 +375,6 @@ code {
     color: #000;
 }
 
-.store .sidebar-content__grid-size-item:first-child {
-    border: 2px solid #fff;
-    padding: 0;
-    margin-left: 0;
-}
 
 .store .sidebar-content__order {
     border: 2px solid;
