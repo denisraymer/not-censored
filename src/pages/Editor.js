@@ -17,8 +17,9 @@ const Editor = () => {
             let testLine = line + words[n] + ' ';
             let testWidth = context.measureText(testLine).width;
             if (testWidth > maxWidth) {
-                context.fillText(line, marginLeft, marginTop);
                 context.textAlign = 'center';
+                context.textBaseline = 'middle';
+                context.fillText(line, marginLeft, marginTop);
                 line = words[n] + ' ';
                 marginTop += lineHeight;
             } else {
@@ -31,18 +32,21 @@ const Editor = () => {
     React.useEffect(() => {
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
-        ctx.clearRect(0, 0, canvas.width, canvas.height)
-        wrapText(ctx, text, 240, 160, 1000, 120)
-        ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
-        setDownloadUrl(canvas.toDataURL())
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.font = `${fontWeight} ${fontSize}px CensoredExprmntlbetaGX`;
+        // ctx.fillText(text, canvas.width/2, canvas.width/2);
+        wrapText(ctx, text, canvas.width/2, canvas.width/2, canvas.width, 120)
+        setDownloadUrl(canvas.toDataURL());
     }, [text]);
 
     React.useEffect(() => {
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
-        ctx.clearRect(0, 0, canvas.width, canvas.height)
-        wrapText(ctx, text, 240, 160, 1000, 120)
-        ctx.font = fontWeight + ' ' + fontSize + 'px CensoredExprmntlbetaGX'
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.font = `${fontWeight} ${fontSize}px CensoredExprmntlbetaGX`;
+        wrapText(ctx, text, canvas.width/2, canvas.width/2, canvas.width, 120)
         setDownloadUrl(canvas.toDataURL())
     }, [fontSize, fontWeight]);
 
@@ -51,19 +55,10 @@ const Editor = () => {
         fontVariationSettings: `'wdth' 400, 'wght' ${fontWeight}`
     }
 
-    const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки']
-
-    // React.useEffect(() => {
-    //
-    //     console.log(randomValue.dice)
-    //
-    //     randomValue.dice = Math.floor(Math.random() * Math.floor(3)) + 1
-    //
-    //     console.log(randomValue.dice)
-    //
-    // }, [randomValue])
+    const matuck = ['все пошло по пизде', 'ебашим на стиле', 'А весна это заебись и круче, да - только наличные', 'Стиль – основа, без стиля, мама, пиздец Мой девиз — «По-любому заебись»', 'Вообще нахуя быть сложным, когда вокруг такая простота?', 'блядские проекты', 'основной распиздос случится с нами в будущем', 'пиздецово работать', 'хуевато жить', 'хуярим, девачки'];
 
     const randomMatuck = () => {
+        if (!modalClose) setModalClose(true)
         setText(matuck[Math.floor(Math.random() * Math.floor(9)) + 1]);
         setRandomImages(Math.floor(Math.random() * Math.floor(3)) + 1);
     }
@@ -80,7 +75,7 @@ const Editor = () => {
 
     return (
         <React.Fragment>
-            <canvas id='canvas' width={1000} height={1000} style={{display: 'none'}}/>
+            <canvas id='canvas' width={1500} height={1500} style={{display: 'none'}}/>
             <div className='sidebar'>
                 <div className='sidebar-content'>
                     <div className='font-setting'>
