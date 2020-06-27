@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "079bb2f0cfc8fd964dc4bc3b5dff399a",
+    "revision": "dc2d258b84dfc9f70df596f904ae2a10",
     "url": "/font-presentation/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/font-presentation/static/css/2.ae627731.chunk.css"
   },
   {
-    "revision": "cc0819c3a59c2df4bd13",
-    "url": "/font-presentation/static/css/main.276be67e.chunk.css"
+    "revision": "7e18c80659d9cc47b4fd",
+    "url": "/font-presentation/static/css/main.227f138f.chunk.css"
   },
   {
     "revision": "6e48368093f1a35f044c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/font-presentation/static/js/2.278810e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc0819c3a59c2df4bd13",
+    "revision": "7e18c80659d9cc47b4fd",
     "url": "/font-presentation/static/js/main.989ffab7.chunk.js"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/font-presentation/static/js/runtime-main.119592b2.js"
   },
   {
-    "revision": "3941b681695a251a9ee38d3791dcaa77",
-    "url": "/font-presentation/static/media/censoredxprmntlGX.3941b681.ttf"
+    "revision": "b7ff66f2e27df3ec4c73b46c9d472463",
+    "url": "/font-presentation/static/media/censoredxprmntlGX.b7ff66f2.ttf"
   },
   {
     "revision": "44439ec3d65111e7f61a55ed4fe11372",
