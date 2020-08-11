@@ -1,0 +1,79 @@
+.text-editor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+
+    .form-control {
+        border-color: #fff;
+        min-height: 41.25rem;
+        font-family: 'HelveticaRegular', sans-serif;
+        color: #000;
+        resize: none;
+    }
+
+    textarea {
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        min-height: 100%;
+        line-height: 120%;
+        text-align: center;
+        font-family: 'CensoredExprmntlbetaGX', sans-serif !important;
+        outline-color: transparent !important;
+        overflow: hidden;
+        resize: none;
+        padding: 60px;
+    }
+
+    textarea:focus {
+        outline-color: #fff;
+        outline-style: none;
+    }
+
+    textarea::placeholder {
+        text-align: center;
+        font-family: 'CensoredExprmntlbetaGX', sans-serif;
+        font-size: 130px;
+        line-height: 160px;
+        color: #BEBDBD;
+    }
+}
+
+.form-control {
+    outline: none !important;
+}
+
+@media (max-width: 1390px) {
+    .text-editor textarea::placeholder {
+        line-height: 100px;
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 990px) {
+    .text-editor {
+        position: unset;
+        text-align: center;
+        height: 100%;
+    }
+
+    .text-editor textarea {
+        font-size: 30px;
+    }
+
+    .text-editor textarea::placeholder {
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    .text-editor {
+        width: 100%;
+    }
+
+    .random,
+    .sidebar .sidebar-content .btn {
+        display: none;
+    }
+}

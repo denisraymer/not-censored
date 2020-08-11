@@ -1,0 +1,32 @@
+.gallery {
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+    h1 {
+        margin: 20rem 0;
+    }
+
+    &__item img {
+        width: 100%;
+    }
+
+    &__item {
+        background-color: #C4C4C4;
+        width: 554px;
+        height: 554px;
+        margin: 30px 15px 20px;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .scroll-horizontal div {
+        align-items: center;
+        left: 0;
+    }
+}

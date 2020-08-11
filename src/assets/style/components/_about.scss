@@ -1,0 +1,43 @@
+.about {
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+    h1 {
+        margin: 20rem 0;
+    }
+
+    &-content {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding: 80px 120px;
+
+        &__text {
+            font-size: 32px;
+            text-align: left;
+            margin-bottom: 60px;
+        }
+
+        .about-content__idea {
+            width: 100%;
+        }
+
+        .about-content__contacts {
+            width: 100%;
+        }
+
+        .about-content__font-download {
+            width: 100%;
+        }
+
+        .tab-pane {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+    }
+}

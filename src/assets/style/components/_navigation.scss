@@ -1,0 +1,11 @@
+.mob-navbar-title {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .mob-navbar-title {
+        font-size: 32px;
+        display: block;
+        margin: auto;
+    }
+}
