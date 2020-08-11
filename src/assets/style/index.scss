@@ -29,23 +29,6 @@
 }
 
 
-@keyframes marquee {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-
-    to {
-        margin-left: 0;
-        width: 100%;
-    }
-}
-
-.footer h6 {
-    margin-bottom: 0;
-}
-
-
 /* Media */
 @media (max-width: 1390px) {
     /* Editor */
@@ -181,11 +164,6 @@
 
     /* Copyright */
     .copyright {
-        display: none;
-    }
-
-    /* Footer */
-    .footer {
         display: none;
     }
 }

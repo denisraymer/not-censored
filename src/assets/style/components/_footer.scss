@@ -12,4 +12,26 @@
         margin: 11px 0;
         animation-name: marquee;
     }
+
+    h6 {
+        margin-bottom: 0;
+    }
+}
+
+@keyframes marquee {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+    .footer {
+        display: none;
+    }
 }
