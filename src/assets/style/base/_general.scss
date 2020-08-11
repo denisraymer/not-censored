@@ -30,3 +30,9 @@ code {
     height: 100%;
     display: flex;
 }
+
+@media (max-width: 990px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+}

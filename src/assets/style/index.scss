@@ -31,11 +31,6 @@
 
 /* Media */
 @media (max-width: 990px) {
-    /* Content */
-    .content {
-        flex-direction: column-reverse;
-    }
-
     /* Textarea */
     .text-editor {
         position: unset;
