@@ -4,6 +4,7 @@
 @import 'components/text-editor';
 @import 'components/random';
 @import 'components/font-setting';
+@import 'components/tab-content';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
@@ -43,11 +44,6 @@ code {
 .content {
     height: 100%;
     display: flex;
-}
-
-/* Tab content */
-.tab-content {
-    width: 100%;
 }
 
 /* About */
