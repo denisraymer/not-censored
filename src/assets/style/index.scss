@@ -1,3 +1,4 @@
+@import 'helpers/mixins';
 @import 'base/general';
 @import 'components/main';
 @import 'components/navigation';
@@ -13,10 +14,3 @@
 @import 'components/modal-block';
 @import 'components/slider';
 @import 'components/footer';
-
-@font-face {
-    font-family: 'CensoredExprmntlbetaGX';
-    src: url('../fonts/censoredxprmntlGX.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
