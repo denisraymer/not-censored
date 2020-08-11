@@ -36,7 +36,7 @@ const Editor = () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.font = `${fontWeight} ${fontSize}px CensoredExprmntlbetaGX`;
         // ctx.fillText(text, canvas.width/2, canvas.width/2);
-        wrapText(ctx, text, canvas.width/2, canvas.width/2, canvas.width, 120)
+        wrapText(ctx, text, canvas.width / 2, canvas.width / 2, canvas.width, 120)
         setDownloadUrl(canvas.toDataURL());
     }, [text]);
 
@@ -46,7 +46,7 @@ const Editor = () => {
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.font = `${fontWeight} ${fontSize}px CensoredExprmntlbetaGX`;
-        wrapText(ctx, text, canvas.width/2, canvas.width/2, canvas.width, 120)
+        wrapText(ctx, text, canvas.width / 2, canvas.width / 2, canvas.width, 120)
         setDownloadUrl(canvas.toDataURL())
     }, [fontSize, fontWeight]);
 
@@ -128,7 +128,7 @@ const Editor = () => {
                            className='modal-block__link'> НАМ </a>
                         БУДЕТ ПРИЯТНО!
                     </div>
-                    <div className="mob-modal-block__text">
+                    <div className='mob-modal-block__text'>
                         Привет!<br/>Это тестовая<br/>страница шрифта (NOT)CENSORED.<br/>Вы можете попробовать шрифт,
                         набрав любой текст, содержащий матерную лексику.<br/><br/>Полная версия сайта доступна для
                         десктопа

@@ -1,13 +1,13 @@
-import React from "react";
-import {Nav, Navbar} from "react-bootstrap";
-import {NavLink} from "react-router-dom";
+import React from 'react';
+import {Nav, Navbar} from 'react-bootstrap';
+import {NavLink} from 'react-router-dom';
 
 const NavigationBar = () => {
     return (
-        <Navbar bg="light" expand="lg">
-            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+        <Navbar bg='light' expand='lg'>
+            <Navbar.Toggle aria-controls='basic-navbar-nav'/>
+            <Navbar.Collapse id='basic-navbar-nav'>
+                <Nav className='mr-auto'>
                     <NavLink className='nav-link'
                              to='/about'
                              activeClassName='nav-link-active'>О ПРОЕКТЕ</NavLink>
@@ -21,11 +21,11 @@ const NavigationBar = () => {
                     <NavLink className='nav-link'
                              to='/store'
                              activeClassName='nav-link-active'>МАГАЗИН</NavLink>
-                    <Nav.Link href="/" disabled>КОРЗИНА (0)</Nav.Link>
-                    <Nav.Link href="/" disabled>ENG</Nav.Link>
+                    <Nav.Link href='/' disabled>КОРЗИНА (0)</Nav.Link>
+                    <Nav.Link href='/' disabled>ENG</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-            <div className="mob-navbar-title">ВЫСКАЗАТЬСЯ</div>
+            <div className='mob-navbar-title'>ВЫСКАЗАТЬСЯ</div>
         </Navbar>
     )
 }
