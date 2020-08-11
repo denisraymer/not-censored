@@ -31,22 +31,6 @@
 
 /* Media */
 @media (max-width: 1390px) {
-    /* Editor */
-    .sidebar {
-        width: 400px;
-        max-width: 400px;
-        min-width: 400px;
-    }
-
-    .sidebar .sidebar-content .btn {
-        font-size: 22px;
-    }
-
-    .text-editor textarea::placeholder {
-        line-height: 100px;
-        font-size: 80px;
-    }
-
     .modal-block__text {
         line-height: 40px;
         font-size: 28px;

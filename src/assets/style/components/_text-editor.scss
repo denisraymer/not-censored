@@ -44,3 +44,10 @@
 .form-control {
     outline: none !important;
 }
+
+@media (max-width: 1390px) {
+    .text-editor textarea::placeholder {
+        line-height: 100px;
+        font-size: 80px;
+    }
+}

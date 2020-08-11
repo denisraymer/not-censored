@@ -57,3 +57,15 @@
         }
     }
 }
+
+@media (max-width: 1390px) {
+    .sidebar {
+        width: 400px;
+        max-width: 400px;
+        min-width: 400px;
+    }
+
+    .sidebar .sidebar-content .btn {
+        font-size: 22px;
+    }
+}
