@@ -31,11 +31,6 @@
 
 /* Media */
 @media (max-width: 1390px) {
-    .modal-block__text {
-        line-height: 40px;
-        font-size: 28px;
-    }
-
     .font-setting .form-label {
         font-size: 22px;
     }
@@ -58,11 +53,6 @@
 
     .font-setting {
         padding: 0 15px;
-    }
-
-    .modal-block__text {
-        line-height: 30px;
-        font-size: 24px;
     }
 }
 
@@ -91,19 +81,6 @@
 
     .font-setting {
         margin-bottom: 0;
-    }
-
-    /* Modal block */
-    .modal-block {
-        height: 100%;
-    }
-
-    .modal-block__text {
-        display: none;
-    }
-
-    .modal-block__btn {
-        width: 30px;
     }
 
     /* Textarea */
@@ -139,12 +116,6 @@
     .sidebar .sidebar-content .btn {
         display: none;
     }
-
-    .mob-modal-block__text {
-        font-size: 18px;
-        display: block;
-    }
-
 
     /* Copyright */
     .copyright {

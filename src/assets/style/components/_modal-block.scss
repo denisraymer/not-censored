@@ -39,3 +39,36 @@
         color: #05FF1E;
     }
 }
+
+@media (max-width: 1390px) {
+    .modal-block__text {
+        line-height: 40px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .modal-block__text {
+        line-height: 30px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 990px) {
+    .modal-block {
+        height: 100%;
+    }
+
+    .modal-block__text {
+        display: none;
+    }
+
+    .modal-block__btn {
+        width: 30px;
+    }
+
+    .mob-modal-block__text {
+        font-size: 18px;
+        display: block;
+    }
+}
