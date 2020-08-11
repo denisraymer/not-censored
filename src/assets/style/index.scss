@@ -1,6 +1,7 @@
 @import 'components/main';
 @import 'components/navigation';
 @import 'components/sidebar';
+@import 'components/text-editor';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
@@ -43,53 +44,6 @@ code {
 }
 
 /* TextEditor */
-.text-editor {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin: 0 auto;
-}
-
-.text-editor .form-control {
-    border-color: #fff;
-    min-height: 41.25rem;
-    font-family: 'HelveticaRegular', sans-serif;
-    color: #000;
-    resize: none;
-}
-
-
-.form-control {
-    outline: none !important;
-}
-
-.text-editor textarea {
-    border: none;
-    border-radius: 0;
-    width: 100%;
-    min-height: 100%;
-    line-height: 120%;
-    text-align: center;
-    font-family: 'CensoredExprmntlbetaGX', sans-serif !important;
-    outline-color: transparent !important;
-    overflow: hidden;
-    resize: none;
-    padding: 60px;
-}
-
-.text-editor textarea:focus {
-    outline-color: #fff;
-    outline-style: none;
-}
-
-.text-editor textarea::placeholder {
-    text-align: center;
-    font-family: 'CensoredExprmntlbetaGX', sans-serif;
-    font-size: 130px;
-    line-height: 160px;
-    color: #BEBDBD;
-}
 
 .random {
     border-radius: 50px;
