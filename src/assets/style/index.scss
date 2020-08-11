@@ -1,3 +1,4 @@
+@import 'base/general';
 @import 'components/main';
 @import 'components/navigation';
 @import 'components/sidebar';
@@ -11,39 +12,6 @@
     src: url('../fonts/censoredxprmntlGX.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-}
-
-body {
-    margin: 0;
-    font-family: sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-a,
-a:active,
-a:hover {
-    transition: all .2s;
-    text-decoration: none;
-    outline: none !important;
-    color: #000;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-#root {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.content {
-    height: 100%;
-    display: flex;
 }
 
 /* About */
