@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from "react";
-import {Nav, Tab} from "react-bootstrap";
+import React, {useEffect, useState} from 'react';
+import {Nav, Tab} from 'react-bootstrap';
 
 const About = () => {
     const [sidebarHeight, setSidebarHeight] = useState(null);
@@ -14,32 +14,32 @@ const About = () => {
     }, [sidebarHeight])
 
     return (
-        <Tab.Container id="left-tabs-example" defaultActiveKey="idea">
+        <Tab.Container id='left-tabs-example' defaultActiveKey='idea'>
             <div className='sidebar sidebar__about'>
                 <div className='sidebar-content sidebar__content'>
-                    <Nav variant="pills" className="sidebar-navigation flex-column">
+                    <Nav variant='pills' className='sidebar-navigation flex-column'>
                         <Nav.Item>
-                            <Nav.Link eventKey="idea" className='sidebar-navigation__item'>
+                            <Nav.Link eventKey='idea' className='sidebar-navigation__item'>
                                 Идея
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="contact" className='sidebar-navigation__item'>
+                            <Nav.Link eventKey='contact' className='sidebar-navigation__item'>
                                 Контакты
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="font" className='sidebar-navigation__item'>
+                            <Nav.Link eventKey='font' className='sidebar-navigation__item'>
                                 Хочу шрифт
                             </Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </div>
             </div>
-            <div className="tab-content" style={{height: `${sidebarHeight}px`}}>
-                <div className="about-content">
-                    <Tab.Pane eventKey="idea">
-                        <div className="about-content__idea">
+            <div className='tab-content' style={{height: `${sidebarHeight}px`}}>
+                <div className='about-content'>
+                    <Tab.Pane eventKey='idea'>
+                        <div className='about-content__idea'>
                             <div className='about-content__text'>
                                 ШРИФТ (NOT)CENSORED — ЭТО ПОПЫТКА ОТРЕФЛЕКСИРОВАТЬ ЗНАЧЕНИЕ ОБЦЕННОЙ ЛЕКСИКИ В НАШЕЙ
                                 ПОВСЕДНЕВНОЙ ПИСЬМЕННОЙ РЕЧИ.
@@ -70,29 +70,29 @@ const About = () => {
                             </div>
                         </div>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="contact">
-                        <div className="about-content__contacts">
-                            <div className="about-content__text">
+                    <Tab.Pane eventKey='contact'>
+                        <div className='about-content__contacts'>
+                            <div className='about-content__text'>
                                 СВЕТА СЕРГЕЕВА <br/>
                                 (СОЗДАТЕЛЬНИЦА И ДИЗАЙНЕР ШРИФТА)
                             </div>
-                            <div className="about-content__text">
-                                <a href="https://www.instagram.com/minnie_vinni/"
-                                   rel="noopener noreferrer">@MINNIE_VINNIE</a>
+                            <div className='about-content__text'>
+                                <a href='https://www.instagram.com/minnie_vinni/'
+                                   rel='noopener noreferrer'>@MINNIE_VINNIE</a>
                             </div>
-                            <div className="about-content__text">
+                            <div className='about-content__text'>
                                 ФИДБЭК И КОЛЛАБОРАЦИИ: <br/>
                                 SVETLANASERGEEVA0896@GMAIL.COM
                             </div>
                         </div>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="font">
-                        <div className="about-content__font-download">
-                            <div className="about-content__text">
+                    <Tab.Pane eventKey='font'>
+                        <div className='about-content__font-download'>
+                            <div className='about-content__text'>
                                 ДЛЯ ТОГО, ЧТОБЫ ПОЛУЧИТЬ СВОЮ КОПИЮ ШРИФТА (NOT)CENSORED XPRMNTL,
                                 НАПИШИТЕ ЗАПРОС НА ПОЧТУ SVETLANASERGEEVA0896@GMAIL.COM
                             </div>
-                            <div className="about-content__text">
+                            <div className='about-content__text'>
                                 В ЗАПРОСЕ УКАЖИТЕ СВОЙ РОД ДЕЯТЕЛЬНОСТИ И ЦЕЛЬ ИСПОЛЬЗОВАНИЯ ШРИФТА.
                                 ОТКРЫТАЯ ЛИЦЕНЗИЯ ПОЗВОЛЯЕТ СВОБОДНО ПОЛЬЗОВАТЬСЯ ШРИФТОМ, НО ЕГО СОЗДАТЕЛЮ
                                 ВАЖНО ИМЕТЬ В ВИДУ, НАСКОЛЬКО ОН ЗНАЧИМ. :)

@@ -2,10 +2,10 @@ import React from 'react';
 import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
-import About from "./pages/About";
-import Gallery from "./pages/Gallery";
-import Store from "./pages/Store";
-import Editor from "./pages/Editor";
+import About from './pages/About';
+import Gallery from './pages/Gallery';
+import Store from './pages/Store';
+import Editor from './pages/Editor';
 
 function App() {
     return (
