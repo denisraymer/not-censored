@@ -10,6 +10,7 @@
 @import 'components/gallery';
 @import 'components/store';
 @import 'components/copyright';
+@import 'components/modal-block';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
@@ -25,47 +26,6 @@
     margin: 20rem 0;
 }
 
-.modal-block {
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-}
-
-.modal-block__btn {
-    width: 50px;
-    height: 50px;
-    z-index: 2;
-    cursor: pointer;
-    position: absolute;
-    right: 25px;
-    top: 25px;
-}
-
-.modal-block__btn img {
-    width: 100%;
-}
-
-.mob-modal-block__text {
-    display: none;
-}
-
-.modal-block__text {
-    font-size: 32px;
-    line-height: 60px;
-    text-align: center;
-}
-
-.modal-block__link,
-.modal-block__link:hover {
-    color: #05FF1E;
-}
 
 .slider {
     -webkit-appearance: none;
