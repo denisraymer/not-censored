@@ -2,6 +2,7 @@
 @import 'components/navigation';
 @import 'components/sidebar';
 @import 'components/text-editor';
+@import 'components/random';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
@@ -41,28 +42,6 @@ code {
 .content {
     height: 100%;
     display: flex;
-}
-
-/* TextEditor */
-
-.random {
-    border-radius: 50px;
-    border: 2px solid #000;
-    background-color: #fff;
-    width: 70px;
-    height: 70px;
-    overflow: hidden;
-    padding: 0;
-    margin-top: 20px;
-}
-
-.random img {
-    width: 70%;
-    height: 70%;
-}
-
-.random:focus {
-    outline: none !important;
 }
 
 /* FontSetting */
