@@ -1,4 +1,5 @@
 @import 'components/main';
+@import 'components/navigation';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
@@ -33,7 +34,6 @@ code {
     display: flex;
     flex-direction: column;
 }
-
 
 
 .content {
