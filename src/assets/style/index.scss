@@ -7,42 +7,13 @@
 @import 'components/font-setting';
 @import 'components/tab-content';
 @import 'components/about';
+@import 'components/gallery';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
     src: url('../fonts/censoredxprmntlGX.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-}
-
-/* Gallery */
-.gallery {
-    width: 100%;
-    text-align: center;
-    display: flex;
-}
-
-.gallery .gallery__item img {
-    width: 100%;
-}
-
-.gallery .gallery__item {
-    background-color: #C4C4C4;
-    width: 554px;
-    height: 554px;
-    margin: 30px 15px 20px;
-}
-
-.gallery .gallery__title {
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 16px;
-    margin-top: 15px;
-}
-
-.gallery .scroll-horizontal div {
-    align-items: center;
-    left: 0;
 }
 
 /* Store */
