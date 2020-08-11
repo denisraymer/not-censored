@@ -51,3 +51,24 @@
         font-size: 80px;
     }
 }
+
+@media (max-width: 990px) {
+    .text-editor {
+        position: unset;
+        text-align: center;
+        height: 100%;
+    }
+
+    .text-editor textarea {
+        font-size: 30px;
+    }
+
+    .text-editor textarea::placeholder {
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    .text-editor {
+        width: 100%;
+    }
+}
