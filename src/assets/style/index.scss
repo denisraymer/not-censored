@@ -12,6 +12,7 @@
 @import 'components/copyright';
 @import 'components/modal-block';
 @import 'components/slider';
+@import 'components/footer';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
@@ -27,22 +28,6 @@
     margin: 20rem 0;
 }
 
-/* Footer */
-.footer {
-    border-top: 3px solid #000;
-    height: 70px;
-    display: flex;
-    text-align: center;
-    font-size: 32px;
-    margin-top: auto;
-}
-
-.footer .marquee-stroke {
-    text-transform: uppercase;
-    font-size: 32px;
-    margin: 11px 0;
-    animation-name: marquee;
-}
 
 @keyframes marquee {
     from {

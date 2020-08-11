@@ -1,0 +1,15 @@
+.footer {
+    border-top: 3px solid #000;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    margin-top: auto;
+
+    .marquee-stroke {
+        text-transform: uppercase;
+        font-size: 32px;
+        margin: 11px 0;
+        animation-name: marquee;
+    }
+}
