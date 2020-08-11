@@ -3,6 +3,7 @@
 @import 'components/sidebar';
 @import 'components/text-editor';
 @import 'components/random';
+@import 'components/font-setting';
 
 @font-face {
     font-family: 'CensoredExprmntlbetaGX';
@@ -42,30 +43,6 @@ code {
 .content {
     height: 100%;
     display: flex;
-}
-
-/* FontSetting */
-.font-setting {
-    width: 21.875rem;
-    margin: 0 auto 3rem;
-}
-
-.font-setting .form-group {
-    display: flex;
-    align-items: center;
-}
-
-.font-setting .form-control-range {
-    max-width: 180px;
-    margin-top: 8px;
-}
-
-.font-setting .form-label {
-    text-transform: uppercase;
-    font-size: 32px;
-    color: #000;
-    margin-left: 1.25rem;
-    margin-bottom: 0;
 }
 
 /* Tab content */

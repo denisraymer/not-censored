@@ -1,0 +1,22 @@
+.font-setting {
+    width: 21.875rem;
+    margin: 0 auto 3rem;
+
+    .form-group {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-control-range {
+        max-width: 180px;
+        margin-top: 8px;
+    }
+
+    .form-label {
+        text-transform: uppercase;
+        font-size: 32px;
+        color: #000;
+        margin-left: 1.25rem;
+        margin-bottom: 0;
+    }
+}
