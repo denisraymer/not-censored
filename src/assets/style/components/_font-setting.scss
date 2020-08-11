@@ -20,3 +20,30 @@
         margin-bottom: 0;
     }
 }
+
+@media (max-width: 1390px) {
+    .font-setting .form-label {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .font-setting {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 990px) {
+    .font-setting {
+        margin-bottom: 0;
+    }
+    
+    .font-setting .form-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .font-setting .form-label {
+        margin-top: 5px;
+    }
+}
