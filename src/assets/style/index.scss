@@ -21,18 +21,8 @@
     font-weight: normal;
 }
 
-/* Store */
 .about h1,
 .gallery h1,
 .store h1 {
     margin: 20rem 0;
-}
-
-
-/* Media */
-@media (max-width: 990px) {
-    .random,
-    .sidebar .sidebar-content .btn {
-        display: none;
-    }
 }
