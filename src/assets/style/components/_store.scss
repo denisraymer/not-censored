@@ -3,6 +3,10 @@
     text-align: center;
     display: flex;
 
+    h1 {
+        margin: 20rem 0;
+    }
+
     &__item {
         width: 554px;
         min-height: 554px;
