@@ -6,6 +6,7 @@ import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Store from './pages/Store';
 import Editor from './pages/Editor';
+import Hooks from './pages/Hooks';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                         <Route path='/about' component={About}/>
                         <Route path='/font-in-se' component={Gallery}/>
                         <Route path='/store' component={Store}/>
+                        <Route path='/hooks' component={Hooks}/>
                     </Switch>
                 </div>
                 <Footer/>
