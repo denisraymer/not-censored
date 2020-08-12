@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Container, {Col} from 'react-bootstrap';
-import Row from 'react-bootstrap';
+import {Container, Col, Row} from 'react-bootstrap';
 
 const Hooks = () => {
     return (
