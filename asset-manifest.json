@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/font-presentation/static/css/main.227f138f.chunk.css",
-    "main.js": "/font-presentation/static/js/main.989ffab7.chunk.js",
-    "main.js.map": "/font-presentation/static/js/main.989ffab7.chunk.js.map",
-    "runtime-main.js": "/font-presentation/static/js/runtime-main.119592b2.js",
-    "runtime-main.js.map": "/font-presentation/static/js/runtime-main.119592b2.js.map",
-    "static/css/2.ae627731.chunk.css": "/font-presentation/static/css/2.ae627731.chunk.css",
-    "static/js/2.278810e9.chunk.js": "/font-presentation/static/js/2.278810e9.chunk.js",
-    "static/js/2.278810e9.chunk.js.map": "/font-presentation/static/js/2.278810e9.chunk.js.map",
+    "main.js": "/font-presentation/static/js/main.0e6dbe09.chunk.js",
+    "main.js.map": "/font-presentation/static/js/main.0e6dbe09.chunk.js.map",
+    "runtime-main.js": "/font-presentation/static/js/runtime-main.34d043ae.js",
+    "runtime-main.js.map": "/font-presentation/static/js/runtime-main.34d043ae.js.map",
+    "static/css/2.9dfbc5b6.chunk.css": "/font-presentation/static/css/2.9dfbc5b6.chunk.css",
+    "static/js/2.f2aebc58.chunk.js": "/font-presentation/static/js/2.f2aebc58.chunk.js",
+    "static/js/2.f2aebc58.chunk.js.map": "/font-presentation/static/js/2.f2aebc58.chunk.js.map",
     "index.html": "/font-presentation/index.html",
-    "precache-manifest.2f42e388f85a91516758a24d061eefa7.js": "/font-presentation/precache-manifest.2f42e388f85a91516758a24d061eefa7.js",
+    "precache-manifest.eb2478962c3e556f205bb0ad48c2bd60.js": "/font-presentation/precache-manifest.eb2478962c3e556f205bb0ad48c2bd60.js",
     "service-worker.js": "/font-presentation/service-worker.js",
-    "static/css/2.ae627731.chunk.css.map": "/font-presentation/static/css/2.ae627731.chunk.css.map",
+    "static/css/2.9dfbc5b6.chunk.css.map": "/font-presentation/static/css/2.9dfbc5b6.chunk.css.map",
     "static/css/main.227f138f.chunk.css.map": "/font-presentation/static/css/main.227f138f.chunk.css.map",
-    "static/js/2.278810e9.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.278810e9.chunk.js.LICENSE.txt",
+    "static/js/2.f2aebc58.chunk.js.LICENSE.txt": "/font-presentation/static/js/2.f2aebc58.chunk.js.LICENSE.txt",
     "static/media/index.css": "/font-presentation/static/media/copyright.2efe6fbe.svg",
-    "static/media/close.svg": "/font-presentation/static/media/close.44439ec3.svg",
+    "static/media/close.svg": "/font-presentation/static/media/close.21e1893f.svg",
     "static/media/dice-01.png": "/font-presentation/static/media/dice-01.4241bd55.png",
     "static/media/dice-02.png": "/font-presentation/static/media/dice-02.7c963842.png",
     "static/media/dice-03.png": "/font-presentation/static/media/dice-03.afa52bbe.png",
@@ -43,10 +43,10 @@
     "static/media/image_14.jpg": "/font-presentation/static/media/image_14.964699bc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.119592b2.js",
-    "static/css/2.ae627731.chunk.css",
-    "static/js/2.278810e9.chunk.js",
+    "static/js/runtime-main.34d043ae.js",
+    "static/css/2.9dfbc5b6.chunk.css",
+    "static/js/2.f2aebc58.chunk.js",
     "static/css/main.227f138f.chunk.css",
-    "static/js/main.989ffab7.chunk.js"
+    "static/js/main.0e6dbe09.chunk.js"
   ]
 }
